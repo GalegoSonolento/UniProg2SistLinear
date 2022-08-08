@@ -59,3 +59,7 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - Organização das classes
 - Agrupamentos de classes (criação de pacotes)
 - Podem ser chamados na íntegra durante o código
+
+==-- Conceitos sobre OO --==
+- Existem vários objetos e eles são manipulados pelas classes dentro da linguagem
+- 
