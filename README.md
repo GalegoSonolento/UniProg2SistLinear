@@ -62,7 +62,6 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 
 ==-- Conceitos sobre OO --==
 - Existem vários objetos e eles são manipulados pelas classes dentro da linguagem
-- 
 
 ==-- Anatomia de um código --==
 - O mais recebe um array de Strings
@@ -94,4 +93,13 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
   - Relacionado a responsabilidade e padrão de escrita (o método tem apenas uma função)
   - É preferencial quebrar as funções o máximo possível
   - Nomes de método devem refletir as funções da função
-  - 
+  - Método privado é o apoio pra ser usado dentro da classe
+- Acoplamento
+  - Interdependência das funções
+  - Herança e polimorfismo diminuem as relações de acoplamento
+- Classes instanciáveis e concretas são as mais mutáveis (c/ mto acoplamento, as mudanças podem afetar outras classes)
+
+==-- Classe --==
+- Contâiner de dados e funções
+- Classe não existe em tempo de execução 
+- 
