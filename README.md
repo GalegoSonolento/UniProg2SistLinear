@@ -63,3 +63,35 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 ==-- Conceitos sobre OO --==
 - Existem vários objetos e eles são manipulados pelas classes dentro da linguagem
 - 
+
+==-- Anatomia de um código --==
+- O mais recebe um array de Strings
+- Empacotamento de um programa java é .jar - um zip com a extensão jar
+- Dá pra colocar bibliotecas inteiras em .jar - ele pode ser incorporado a outros projetos (como frameworks)
+- #> java -jar exemplo.jar (sem parâmetros) -> java -jar exemplo.jar -n "Guilherme" (passando parâmetros pelo console)
+- Métodos de classe são estáticos
+- Atributos sempre estão non topo do código
+- Se um método não é entendivel em menos de 30s, tem algo de errado com o método
+- Comentários tem hora e lugar
+- Código precisa ser autoexplicativo
+
+==-- Histórico: tipos de dados --==
+- Começaram a falar sobre o paradigma de orientação a objetos na década de 60
+- Paradigma funcional (36) - anterior ao Turing
+- LInguagens estão caminhando para um ambiente multiparadigma
+- Alan Kay - pai da OO - criou o SmallTalk
+- UDT - tipo definidos pelo usuário - LP's mais expressivas
+  - Numa ficha, o endereço pode ser um tipo criado pelo usuário (uma classe inteira nova memo)
+- ADT - tipos anstratos de dados
+  - Esquema do public e private
+
+==-- Paradigma da OO --==
+- O mundo é feito de objetos
+- Resolve o problema da separação de dados de funções
+- Alta coesão e baixo acoplamento - maior dificuldade 
+- Coesão
+  - Faz sentido/lógico
+  - Relacionado a responsabilidade e padrão de escrita (o método tem apenas uma função)
+  - É preferencial quebrar as funções o máximo possível
+  - Nomes de método devem refletir as funções da função
+  - 
