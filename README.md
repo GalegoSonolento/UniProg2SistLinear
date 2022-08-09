@@ -6,6 +6,12 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - Hacker rank
 - https://www.infoq.com/
 
+==-- Aplicativos para instalação --==
+- Astah UML - e-mail da unisinos dá acesso
+- Eclipse/IntelliJ
+- Git
+- CMDer
+
 ==-- Modelos de desenvolvimento --==
 - Waterfall (68)
 - Buzer - geradores (geravam uma aplicação total)
@@ -102,4 +108,18 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 ==-- Classe --==
 - Contâiner de dados e funções
 - Classe não existe em tempo de execução 
-- 
+- Uma especificação 
+- Pode apresentar variações de objetos (instâncias)
+- Objeto existe em tempo de execução
+- A persistência dos objetos necessita um agente externo para a memória
+- Te obriga primeiro em entender o que fazer
+- Membro estático
+  - Casa.setArquiteto("") -> public static void setArquiteto(Ex exemplo){ arquiteto = exemplo }
+- Numa caixa de texto é possível fazer n operações de variação
+- Static
+  - Sempre referentes à classe
+- Operações de inicialização são os construtores
+- Os objetos de uma OO sempre conversam entre sí
+
+==-- Objetos --==
+- Ficam em pilhas, junto com os tipos primitivos
