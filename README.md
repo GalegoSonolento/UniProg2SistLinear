@@ -12,6 +12,10 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - Git
 - CMDer
 
+==-- Lendo Erros --==
+- NullPointerException -> não aponta para nada ou não pode invocar 
+  - Tá chamando um método não instanciado (não tá criando o objeto em algum lugar)
+
 ==-- Modelos de desenvolvimento --==
 - Waterfall (68)
 - Buzer - geradores (geravam uma aplicação total)
