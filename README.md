@@ -5,6 +5,7 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - DZone
 - Hacker rank
 - https://www.infoq.com/
+- https://echeung.me/crcmaker/
 
 ==-- Aplicativos para instalação --==
 - Astah UML - e-mail da unisinos dá acesso
