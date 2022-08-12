@@ -5,6 +5,17 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - DZone
 - Hacker rank
 - https://www.infoq.com/
+- https://echeung.me/crcmaker/
+
+==-- Aplicativos para instalação --==
+- Astah UML - e-mail da unisinos dá acesso
+- Eclipse/IntelliJ
+- Git
+- CMDer
+
+==-- Lendo Erros --==
+- NullPointerException -> não aponta para nada ou não pode invocar 
+  - Tá chamando um método não instanciado (não tá criando o objeto em algum lugar)
 
 ==-- Modelos de desenvolvimento --==
 - Waterfall (68)
@@ -59,3 +70,61 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - Organização das classes
 - Agrupamentos de classes (criação de pacotes)
 - Podem ser chamados na íntegra durante o código
+
+==-- Conceitos sobre OO --==
+- Existem vários objetos e eles são manipulados pelas classes dentro da linguagem
+
+==-- Anatomia de um código --==
+- O mais recebe um array de Strings
+- Empacotamento de um programa java é .jar - um zip com a extensão jar
+- Dá pra colocar bibliotecas inteiras em .jar - ele pode ser incorporado a outros projetos (como frameworks)
+- #> java -jar exemplo.jar (sem parâmetros) -> java -jar exemplo.jar -n "Guilherme" (passando parâmetros pelo console)
+- Métodos de classe são estáticos
+- Atributos sempre estão non topo do código
+- Se um método não é entendivel em menos de 30s, tem algo de errado com o método
+- Comentários tem hora e lugar
+- Código precisa ser autoexplicativo
+
+==-- Histórico: tipos de dados --==
+- Começaram a falar sobre o paradigma de orientação a objetos na década de 60
+- Paradigma funcional (36) - anterior ao Turing
+- LInguagens estão caminhando para um ambiente multiparadigma
+- Alan Kay - pai da OO - criou o SmallTalk
+- UDT - tipo definidos pelo usuário - LP's mais expressivas
+  - Numa ficha, o endereço pode ser um tipo criado pelo usuário (uma classe inteira nova memo)
+- ADT - tipos anstratos de dados
+  - Esquema do public e private
+
+==-- Paradigma da OO --==
+- O mundo é feito de objetos
+- Resolve o problema da separação de dados de funções
+- Alta coesão e baixo acoplamento - maior dificuldade 
+- Coesão
+  - Faz sentido/lógico
+  - Relacionado a responsabilidade e padrão de escrita (o método tem apenas uma função)
+  - É preferencial quebrar as funções o máximo possível
+  - Nomes de método devem refletir as funções da função
+  - Método privado é o apoio pra ser usado dentro da classe
+- Acoplamento
+  - Interdependência das funções
+  - Herança e polimorfismo diminuem as relações de acoplamento
+- Classes instanciáveis e concretas são as mais mutáveis (c/ mto acoplamento, as mudanças podem afetar outras classes)
+
+==-- Classe --==
+- Contâiner de dados e funções
+- Classe não existe em tempo de execução 
+- Uma especificação 
+- Pode apresentar variações de objetos (instâncias)
+- Objeto existe em tempo de execução
+- A persistência dos objetos necessita um agente externo para a memória
+- Te obriga primeiro em entender o que fazer
+- Membro estático
+  - Casa.setArquiteto("") -> public static void setArquiteto(Ex exemplo){ arquiteto = exemplo }
+- Numa caixa de texto é possível fazer n operações de variação
+- Static
+  - Sempre referentes à classe
+- Operações de inicialização são os construtores
+- Os objetos de uma OO sempre conversam entre sí
+
+==-- Objetos --==
+- Ficam em pilhas, junto com os tipos primitivos
