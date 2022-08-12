@@ -128,3 +128,9 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 
 ==-- Objetos --==
 - Ficam em pilhas, junto com os tipos primitivos
+
+==-- Princípios --==
+- Abstração permite um entendimento apenas do que for conveniente
+- Mais abstração tem menos detalhes
+- Herança
+  - 
