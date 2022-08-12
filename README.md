@@ -133,4 +133,29 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - Abstração permite um entendimento apenas do que for conveniente
 - Mais abstração tem menos detalhes
 - Herança
+  - Superclasse (abstração)
+  - Subclasses (filhas ou derivadas) - especializadas da superclasse (classe pai)
+- Encapsulamento
+  - Information hiding
+  - Seta coisas q fazem sentido para os clientes da classe 
+  - Relação com os modificadores de visibilidade
+  - Não preciso necessariamente saber tudo que o método faz para poder utilizá-lo
+- Polimorfismo
+  - Vários comportamentos
+  - Só acontece por causa da abstração
+  - Não se pode ter métodos abstratos em classes concretas
+
+==-- Boas Práticas --==
+- Construtores
+  - Não são classes
+  - Sem tipo de retorno e mesmo nome da classe
+  - Não fazem parte da interface
+  - Só aparece na hora de construir o objeto
+  - N necessariamente explícitos
+- Interface da classe
+  - Uma interface é u7ma API
+  - Uma classe tem vários métodos e é isso q vc precisa saber
+  - N a da tela, essa é a UI
+- Usuário e desenvolvedor da classe
+  - O cliente da classe usa muita abstração na hora de utilizá-la
   - 
