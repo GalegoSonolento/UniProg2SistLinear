@@ -16,6 +16,10 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 ==-- Lendo Erros --==
 - NullPointerException -> não aponta para nada ou não pode invocar 
   - Tá chamando um método não instanciado (não tá criando o objeto em algum lugar)
+- ArrayIndexOutOfBoundsException
+  - Tenta pegar um valor do array fora do tamanho
+- Exception in thread “main”: NoSuchMethodError: main
+  - N encontrou o main
 
 ==-- Modelos de desenvolvimento --==
 - Waterfall (68)
@@ -125,6 +129,7 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
   - Sempre referentes à classe
 - Operações de inicialização são os construtores
 - Os objetos de uma OO sempre conversam entre sí
+- Uma classe final não pode ter nada abaixo dela (não pd ter filhas)
 
 ==-- Objetos --==
 - Ficam em pilhas, junto com os tipos primitivos
@@ -184,6 +189,7 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - Atributos
   - Contém dados
   - Podem ter modificador de visibilidade ou n
+  - Um atributo final n pd ser modificado posteriormente (uma constante)
 - Métodos
   - POdem n retornar nd
   - Proceedure
