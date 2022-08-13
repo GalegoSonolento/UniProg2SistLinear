@@ -158,4 +158,38 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
   - N a da tela, essa é a UI
 - Usuário e desenvolvedor da classe
   - O cliente da classe usa muita abstração na hora de utilizá-la
+  - O desenvolvedor precisa fornecer os métodos todos e permitir o usuário usar a classe sem maiores problemas
+  - Dependendo do papel é importante saber como agir
+- Modificador d visibilidade
+  - Uma classe tem métodos e atributos
+  - Private
+    - Apenas dentro da classe 
+  - Package private / dafault
+    - Sem uma especificação, é ele quem aparece por default
+    - Só pode ser enxergado dentro do mesmo pacote
+  - Protected 
+    - Acesso pelas subclasses
+    - Tbm só é acessível por classes do mesmo pacote
+  - Public
+    - Geral pode ver as paradas
+- Conteúdo de uma Classe
+  - Estrutura package (informação de pacote)
+  - Vários imports
+  - Declaração
+  - Boa prática colocar atributos no início
+  - Construtores
+  - Métodos
+  - Blocos e inicialização static 
+  - Classes dentro de classes
+- Atributos
+  - Contém dados
+  - Podem ter modificador de visibilidade ou n
+- Métodos
+  - POdem n retornar nd
+  - Proceedure
+  - Mod de visibilidade
+  - Pd ter um atributo interno
+- Escopo das variáveis
+  - Da classe / local / método
+  - Apenas uma classe pública por arquivo
   - 
