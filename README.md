@@ -6,6 +6,7 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - Hacker rank
 - https://www.infoq.com/
 - https://echeung.me/crcmaker/
+- Mining Software Repositories
 
 ==-- Aplicativos para instalação --==
 - Astah UML - e-mail da unisinos dá acesso
@@ -198,4 +199,23 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - Escopo das variáveis
   - Da classe / local / método
   - Apenas uma classe pública por arquivo
+
+==-- Controle de versão com git --==
+- Função de um SCV
+  - Centralized version control system
+  - Anos 90
+  - Os primeiros eram baseados em servidores (centralizados)
+    - O update atualizava a versão das workstations
+    - As mudanças locais tinham commit e eram jogadas ao servido central
+    - Antes a central via se existia alguma alteração antes da alteração minha, caso não, apenas dava commit, se sim, obrigava o programador a mesclar as diferenças feitas antes de seu commit
+    - Os branches só eram criados no servidor 
+    - Usava muito a rede
+  - Distributed version control system
+    - A workstation é tratada como um servidor (repositório local)
+    - As operações são locais, os envios tem terminologias diferentes
+    - Permite o trabalho simultâneo e um história de evolução
+    - Permitem controlar os plug-ins e owners dos trechos de código (ilhas de conhecimento - modificações conjuntas)
+- Git
+  - Controle de versão distribuído
+  - Kernel do Linux
   - 
