@@ -210,6 +210,7 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
     - Antes a central via se existia alguma alteração antes da alteração minha, caso não, apenas dava commit, se sim, obrigava o programador a mesclar as diferenças feitas antes de seu commit
     - Os branches só eram criados no servidor 
     - Usava muito a rede
+      - Muito complexo
   - Distributed version control system
     - A workstation é tratada como um servidor (repositório local)
     - As operações são locais, os envios tem terminologias diferentes
