@@ -1,0 +1,9 @@
+1. O que são arrays?
+- Arrays são formas de organização de dados. As arrays precisam ser contíguas, da mesma forma que precisam ter seu
+tamanho declarado no moemento de sua criação (ocupam um espaço fixo de memória, mesmo que algum dos slots dentro dela
+esteja vazio). A vantagem é que elas são mais rápidas que listas normais (por todos os dados estarem no mesmo lugar).
+
+2. O que são matrizes?
+
+
+3. Quais operações são aplicáveis a arrays?
