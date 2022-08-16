@@ -239,3 +239,5 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
   - Os commits tem código rash
   - O head do git aponta para a versão atual (o grapho é ao contrário)
   - Os commits são confirmações na estrutura
+  - Não necessariamente se usa a linha de comando no terminal (IDE's tem relacionamento com git agr), mas é interessante para ver o que o PC anda fazendo com os arquivos
+  - 
