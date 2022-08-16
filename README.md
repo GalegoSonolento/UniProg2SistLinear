@@ -7,6 +7,7 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - https://www.infoq.com/
 - https://echeung.me/crcmaker/
 - Mining Software Repositories
+- https://learngitbranching.js.org/?locale=pt_BR
 
 ==-- Aplicativos para instalação --==
 - Astah UML - e-mail da unisinos dá acesso
@@ -210,7 +211,6 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
     - Antes a central via se existia alguma alteração antes da alteração minha, caso não, apenas dava commit, se sim, obrigava o programador a mesclar as diferenças feitas antes de seu commit
     - Os branches só eram criados no servidor 
     - Usava muito a rede
-      - Muito complexo
   - Distributed version control system
     - A workstation é tratada como um servidor (repositório local)
     - As operações são locais, os envios tem terminologias diferentes
@@ -219,4 +219,23 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - Git
   - Controle de versão distribuído
   - Kernel do Linux
-  - 
+  - Existe o staging (meio do caminho)
+  - O git fetch é diferente do git pull (ele mostra as diferenças)
+  - git init/git add
+    - init cria um repositório novo 
+    - add adiciona no local
+  - Commit -> commita pro reposit´roio da máquina
+  - git show -> dados de um commit
+  - git log -> logs do commit
+  - git branch -> lista as branches do git
+  - git merge -> mescla as branches
+  - git status -> lista tudo q vai ser commitado
+  - git checkout -> troca a branch
+  - git clone -> clone um git 
+  - git remote -> adiciona o remoto no local
+  - git push -> envia o da máquina para o online
+  - git tag -> tag nas versões
+  - git rm -> deleta o trabalho atual
+  - Os commits tem código rash
+  - O head do git aponta para a versão atual (o grapho é ao contrário)
+  - Os commits são confirmações na estrutura
