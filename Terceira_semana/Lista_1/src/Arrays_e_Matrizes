@@ -4,6 +4,8 @@ tamanho declarado no moemento de sua criação (ocupam um espaço fixo de memór
 esteja vazio). A vantagem é que elas são mais rápidas que listas normais (por todos os dados estarem no mesmo lugar).
 
 2. O que são matrizes?
-
+- Matrizes são vetores com vetores. No caso do java, pode-se criar uma array ou lista em que cada elemento dela também,
+é um array ou uma lista. É possível imaginar aqueles vetores de escola ou ensino médio, só que agora com dados, muitos
+dados, ao invés de apenas uns 9 números.
 
 3. Quais operações são aplicáveis a arrays?
