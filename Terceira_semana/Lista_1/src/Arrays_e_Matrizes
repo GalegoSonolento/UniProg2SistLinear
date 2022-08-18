@@ -9,3 +9,6 @@ esteja vazio). A vantagem é que elas são mais rápidas que listas normais (por
 dados, ao invés de apenas uns 9 números.
 
 3. Quais operações são aplicáveis a arrays?
+- Primeiramente, uma array precisa ser inicializada e declarada. A partir daí, pode-se montar diversas operações. Como,
+registrar seu tamanho, percorrê-la (com um for) pode integrar e manipular seus dados lá dentro, mas não adicionar ou
+retirar nenhum espaço de memória (eles podem ser vazios, mas ainda estão lá)
