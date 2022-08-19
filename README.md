@@ -249,4 +249,11 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - Não é interessante montar toda a modealgem antes (mais efetivo é montar e testar pequenas partes do modelo)
 - Serve como apresentação de conceito (representação)
 - BD(ER) \ UML / US/UX
+- UML é o padrão
+- Multiplicidade
+  - Quantas associações existem entre as classes
+- Classe abstrata
+  - Escrita em italico
+  - Tbm é possível colocar um esteriótipo na classe
+- Em uma herança deve-se planejar os pai da classe filha (deve ser pertinente, maioria das linguegens não suporta herança múltipla)
 - 
