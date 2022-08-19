@@ -241,4 +241,12 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
   - Os commits são confirmações na estrutura
   - Não necessariamente se usa a linha de comando no terminal (IDE's tem relacionamento com git agr), mas é interessante para ver o que o PC anda fazendo com os arquivos
   - Existem git flows (braches usadas para colocar tds os arquivos e dps jogar td na master)
-  - 
+
+==-- Modelagem OO --==
+- MOntagem e experiência do usuário
+- Esquematização da disposição do código
+- Uso do UML
+- Não é interessante montar toda a modealgem antes (mais efetivo é montar e testar pequenas partes do modelo)
+- Serve como apresentação de conceito (representação)
+- BD(ER) \ UML / US/UX
+- 
