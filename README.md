@@ -257,4 +257,8 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
   - Tbm é possível colocar um esteriótipo na classe
 - Em uma herança deve-se planejar os pai da classe filha (deve ser pertinente, maioria das linguegens não suporta herança múltipla)
 - Linhas pontilhadas indicam abstração e interface no UML
+- DEpendência
+  - Parâmetro dentro de algum dos métodos
+
+==-- Modelagem ágil --==
 - 
