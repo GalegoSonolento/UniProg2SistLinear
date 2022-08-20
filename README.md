@@ -266,4 +266,6 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - Documentação deve acontecer com o projeto andando
 - Sempre tentar ajudar outros a terminar os códigos e tarefas
 - O fluxo de produção de software é constante
+- Os CRC cards não precisam servir de documentação - só exploram os conceitos
+- Documentação éimportante (mas n dá pra sobrecarregar o time só com isso)
 - 
