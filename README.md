@@ -261,4 +261,9 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
   - Parâmetro dentro de algum dos métodos
 
 ==-- Modelagem ágil --==
+- Artefato é td q foi produzido
+- Entender quais artefatos agregam valor
+- Documentação deve acontecer com o projeto andando
+- Sempre tentar ajudar outros a terminar os códigos e tarefas
+- O fluxo de produção de software é constante
 - 
