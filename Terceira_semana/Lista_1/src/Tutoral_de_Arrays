@@ -1,0 +1,11 @@
+==-- Tutorial sobre Arrays --==
+- Normalmente as iterações com arrays são feitas com algum tipo de loop
+- tipo[]
+- A biblioteca de operações das arrays é java.util.Arrays
+    - Binaty search
+    - equals
+    - fill
+    - sort
+    - parallelSort
+    - CopyTo
+- Essa API das arrays permite criar Strings diretamente das arrays, sem precisar de loops muito grandes

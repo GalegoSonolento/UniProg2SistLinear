@@ -1,0 +1,13 @@
+==-- Recursão --==
+- A habilidade de uma função chamar a si mesma
+- Um problema clássico resolvido com ela é a Torre de Hanoi
+- Resolve pequenos problemas menores dentro de um maior
+- Usa um loop pra rodar (ela é o próprio loop)
+- A solução base de uma recursão é o problema maior q ela pode lidar
+- Um stack overflow acontece quando uma solução base é inexistente e o sistema não sabe quando parar a recursão
+- É possível ser indireta ou direta
+- Recursão usa mais memória, mas pode ser mto útil em alguns casos com códigos muito grandes
+- Ela pd demorar demais para finalizar (uma iteração normalmente tem tempo definido para ocorrer)
+- É maior q uma iteração e custa mais memóra, elém de ser um tanto complexa de ler e escrever (menos código)
+- É uma boa opção caso a iteração seja um código muito monstruoso
+-

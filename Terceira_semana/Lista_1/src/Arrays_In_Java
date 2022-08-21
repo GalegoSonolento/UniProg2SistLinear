@@ -1,0 +1,7 @@
+==-- Arrays in Java --==
+- A superclasse é a object
+- Uma array deve ser inicializada e tudo q ela guarda tbm o deve ser feito
+- Uma excessão, a ArrayIndexOutOfBoundsException, aparece td vez q se tenta acessar um index q está fora da array
+- Arrays multidimensionais são criadas na instância (int[][] pra 2d ou int[][][] pra 3d)
+- Arrays podem ser parâmetros para métodos tbm
+- Uma array clonada aponta para as mesmas unidades de memória

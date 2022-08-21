@@ -1,0 +1,7 @@
+==-- Matrizes em java --==
+- Basicamente uma array 2d
+- Dá pra printar de forma tabular colocando as duas variáveis dentro de dois fors seguidos
+- MEsma coisa com uma array 3d
+- Nas arrays 3d, a representação tabular deve vir uma após a outra, já q são basicamente 2 ou mais arrays 2d uma após a
+outra
+-
