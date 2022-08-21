@@ -32,4 +32,13 @@ public class Circulo {
     public double calculaArea(){
         return Math.PI * Math.pow(raio, 2);
     }
+
+    @Override
+    public String toString() {
+        return "Circulo{" +
+                "x=" + x +
+                ", y=" + y +
+                ", raio=" + raio +
+                '}';
+    }
 }
