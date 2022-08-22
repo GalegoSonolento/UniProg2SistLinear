@@ -268,4 +268,13 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - O fluxo de produção de software é constante
 - Os CRC cards não precisam servir de documentação - só exploram os conceitos
 - Documentação éimportante (mas n dá pra sobrecarregar o time só com isso)
-- 
+- Astah não pega as dependências (precisam ser criadas no astah)
+
+==-- Arrays e matrizes --==
+- Conceitos e estrutura
+  - Array é uma coleção de elemetos (objetos ou tipos)
+  - Um array é estático (tamanho fixo)
+  - O valor default de um array de objetos é null, 0 para numerais, unicode para char e false para boolean
+  - Array == vetor
+  - OutOfBounds é quando saiu do index do array
+  - 
