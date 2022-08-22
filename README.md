@@ -277,4 +277,26 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
   - O valor default de um array de objetos é null, 0 para numerais, unicode para char e false para boolean
   - Array == vetor
   - OutOfBounds é quando saiu do index do array
-  - 
+- Estrutura
+  - Sempre o nome[índice] = conteúdo
+- Funcionamento
+  - EXistem heaps e pilhas
+  - Os valores são armazenados em uma heap
+- Formas de percorrer um array
+  - Os meios realmente são o for e o for-it
+  - O for-it tem um objeto de referência para percorrer um arary
+  - O while e do-while também são usados, mas nem tanto (talvez para procura de dados específicos)
+- Formas de criação (e matrizes)
+  - Uma definição com tds os elementos explícitos (um array de semana, por exemplo)
+  - Ou String[] semana = new String[7] // semana = {*dias da semana*}
+  - Array é uma matriz unidimensional (vetor)
+  - Vetores multimendionais viram matrizes
+  - Exemplo:
+    - String[][] nomeDoArray = {{inicializador linha 1}, {inicializador linha 2}, ...}
+    - Elas podem ter várias dimensões
+    - Elas são organizadas por linhas (planilhas)
+- Propriedade lenght vem padrão e me dá o tamanho dele
+- É possível criar arrays de qql dimensão
+- System.arraycopy() - copia um vetor para outro. Mas tbm dá pra usar a classe Arrays
+- A classe arrays deve ser importada, mas é mto útil para lidar com arrays
+- 
