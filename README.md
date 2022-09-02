@@ -299,4 +299,11 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - É possível criar arrays de qql dimensão
 - System.arraycopy() - copia um vetor para outro. Mas tbm dá pra usar a classe Arrays
 - A classe arrays deve ser importada, mas é mto útil para lidar com arrays
-- 
+
+==-- Exceptions --==
+- Tipos de erros
+  - Erro de lógica e de checagem (alguns realmente precisam de revisão e tratamento) / também existem os que precisam de tratamento de hardware
+ - Checked e unchecked 
+  - As checked n precisam de tratamento explícito, mas as unchecked sim
+- os blocos são de "try and catch" - também existe o finnaly - Semelhante ao switchCase
+- Exceções interrompem o fluxo normal do código (são mais custosas que simples tratamentos)
