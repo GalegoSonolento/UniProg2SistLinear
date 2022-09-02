@@ -309,3 +309,13 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - Exceções interrompem o fluxo normal do código (são mais custosas que simples tratamentos)
 - Criando Exceções
   - As exceções criadas precisam ser puxadas de alguma das classes de exceções
+
+==-- Conversão de objetos --==
+- Classes wrappers trasnformam os tipos primitivos em objetos para a manipulação
+- Aplicações reais pedem tipos específicos - montetários usam bigDecimal
+- vetores seguem a mesma estrutura
+- Tipos maiores convertidos para menores precisam de seleção de informação (descrição do tipo antes da declaração - casting)
+- Existe um risco nas conversões - sem try/catch um programa pode quebrar facilmente
+- O pacote java.lang sempre vem junto no java - classes empacotadoras (wrappers)
+- O boxing e unboxing são feitos automaticamente no java
+- 
