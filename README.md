@@ -307,3 +307,5 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
   - As checked n precisam de tratamento explícito, mas as unchecked sim
 - os blocos são de "try and catch" - também existe o finnaly - Semelhante ao switchCase
 - Exceções interrompem o fluxo normal do código (são mais custosas que simples tratamentos)
+- Criando Exceções
+  - As exceções criadas precisam ser puxadas de alguma das classes de exceções
