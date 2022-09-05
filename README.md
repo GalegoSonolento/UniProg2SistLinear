@@ -1,6 +1,9 @@
 # UniProg2SistLinear
 Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisinos (Minhas respostas e anotações)
 
+==-- Boas práticas --==
+- Nunca colocar System.ou.println() por todo o código e no main
+
 ==-- Sites interessantes --==
 - DZone
 - Hacker rank
@@ -318,4 +321,18 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - Existe um risco nas conversões - sem try/catch um programa pode quebrar facilmente
 - O pacote java.lang sempre vem junto no java - classes empacotadoras (wrappers)
 - O boxing e unboxing são feitos automaticamente no java
-- 
+
+==-- Tipos Genéricos --==
+- Definição do tipo usado na estrutura
+- Segurança da rodagem do código
+- O que são:
+  - São os tipos definidos
+  - As referências são as letras (são substituidas pela informação contida no tipo genérico)
+  - Object é o pai de todos
+- Não funciona com tipo primitivo
+- Não dá pra alterar o tipo de um obj
+- Sintaxe
+  - class NomeDaClasse<Tipo> -> NomeDaClasse<Tipo> var = new NomeDaClasse<Tipo>([argumentos])
+  - O interrogação (?) pode ser qql coisa
+- Não são instansiados por si só
+
