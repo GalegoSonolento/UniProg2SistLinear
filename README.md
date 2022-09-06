@@ -1,8 +1,56 @@
 # UniProg2SistLinear
 Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisinos (Minhas respostas e anotações)
 
-==-- Boas práticas --==
+==-- Boas Práticas --==
+- Construtores
+  - Não são classes
+  - Sem tipo de retorno e mesmo nome da classe
+  - Não fazem parte da interface
+  - Só aparece na hora de construir o objeto
+  - N necessariamente explícitos
+- Interface da classe
+  - Uma interface é u7ma API
+  - Uma classe tem vários métodos e é isso q vc precisa saber
+  - N a da tela, essa é a UI
+- Usuário e desenvolvedor da classe
+  - O cliente da classe usa muita abstração na hora de utilizá-la
+  - O desenvolvedor precisa fornecer os métodos todos e permitir o usuário usar a classe sem maiores problemas
+  - Dependendo do papel é importante saber como agir
+- Modificador d visibilidade
+  - Uma classe tem métodos e atributos
+  - Private
+    - Apenas dentro da classe 
+  - Package private / dafault
+    - Sem uma especificação, é ele quem aparece por default
+    - Só pode ser enxergado dentro do mesmo pacote
+  - Protected 
+    - Acesso pelas subclasses
+    - Tbm só é acessível por classes do mesmo pacote
+  - Public
+    - Geral pode ver as paradas
+- Conteúdo de uma Classe
+  - Estrutura package (informação de pacote)
+  - Vários imports
+  - Declaração
+  - Boa prática colocar atributos no início
+  - Construtores
+  - Métodos
+  - Blocos e inicialização static 
+  - Classes dentro de classes
+- Atributos
+  - Contém dados
+  - Podem ter modificador de visibilidade ou n
+  - Um atributo final n pd ser modificado posteriormente (uma constante)
+- Métodos
+  - POdem n retornar nd
+  - Proceedure
+  - Mod de visibilidade
+  - Pd ter um atributo interno
+- Escopo das variáveis
+  - Da classe / local / método
+  - Apenas uma classe pública por arquivo
 - Nunca colocar System.ou.println() por todo o código e no main
+- Definir atributos como private
 
 ==-- Sites interessantes --==
 - DZone
@@ -155,55 +203,6 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
   - Só acontece por causa da abstração
   - Não se pode ter métodos abstratos em classes concretas
 
-==-- Boas Práticas --==
-- Construtores
-  - Não são classes
-  - Sem tipo de retorno e mesmo nome da classe
-  - Não fazem parte da interface
-  - Só aparece na hora de construir o objeto
-  - N necessariamente explícitos
-- Interface da classe
-  - Uma interface é u7ma API
-  - Uma classe tem vários métodos e é isso q vc precisa saber
-  - N a da tela, essa é a UI
-- Usuário e desenvolvedor da classe
-  - O cliente da classe usa muita abstração na hora de utilizá-la
-  - O desenvolvedor precisa fornecer os métodos todos e permitir o usuário usar a classe sem maiores problemas
-  - Dependendo do papel é importante saber como agir
-- Modificador d visibilidade
-  - Uma classe tem métodos e atributos
-  - Private
-    - Apenas dentro da classe 
-  - Package private / dafault
-    - Sem uma especificação, é ele quem aparece por default
-    - Só pode ser enxergado dentro do mesmo pacote
-  - Protected 
-    - Acesso pelas subclasses
-    - Tbm só é acessível por classes do mesmo pacote
-  - Public
-    - Geral pode ver as paradas
-- Conteúdo de uma Classe
-  - Estrutura package (informação de pacote)
-  - Vários imports
-  - Declaração
-  - Boa prática colocar atributos no início
-  - Construtores
-  - Métodos
-  - Blocos e inicialização static 
-  - Classes dentro de classes
-- Atributos
-  - Contém dados
-  - Podem ter modificador de visibilidade ou n
-  - Um atributo final n pd ser modificado posteriormente (uma constante)
-- Métodos
-  - POdem n retornar nd
-  - Proceedure
-  - Mod de visibilidade
-  - Pd ter um atributo interno
-- Escopo das variáveis
-  - Da classe / local / método
-  - Apenas uma classe pública por arquivo
-
 ==-- Controle de versão com git --==
 - Função de um SCV
   - Centralized version control system
@@ -335,4 +334,19 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
   - class NomeDaClasse<Tipo> -> NomeDaClasse<Tipo> var = new NomeDaClasse<Tipo>([argumentos])
   - O interrogação (?) pode ser qql coisa
 - Não são instansiados por si só
+- Funciona igual uma classe criada normal, mas pode usar qql tipo de objeto
 
+==-- Herança e polimorfismo --==
+- COnstrutor não é método (o retorno é o próprio objeto)
+- Métodos tbm tem sobrecarga (a diferença pd estar nos parâmetros)
+- Uso do this e super
+  - super é pras classes superiores (se algo tiver protected dá pra ver)
+- Enumerações
+  - Final classes n podem ter herança
+  - Métodos final n podem ser sobreescritos (mas a sobrecarga ainda acontece)
+  - Qql final rola
+  - Tipos enumerados servem de classificação
+  - value() - retorna uma array das enumerações
+  - valueOf(String) - retorna uma String das enumerações
+- Associações
+  - Classe abstrata impede de criar objetos
