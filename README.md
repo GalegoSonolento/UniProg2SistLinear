@@ -51,6 +51,7 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
   - Apenas uma classe pública por arquivo
 - Nunca colocar System.ou.println() por todo o código e no main
 - Definir atributos como private
+- Custos de sistemas tem um impacto importante na velocidade do programa (aplicações e criações de objetos)
 
 ==-- Sites interessantes --==
 - DZone
@@ -350,3 +351,4 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
   - valueOf(String) - retorna uma String das enumerações
 - Associações
   - Classe abstrata impede de criar objetos
+- Um static explicita que um atributo é da classe
