@@ -352,3 +352,12 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - Associações
   - Classe abstrata impede de criar objetos
 - Um static explicita que um atributo é da classe
+- Regras
+  - Nenhuma referência dá protected
+- Classes abstratas
+  - Compartilhar dados e comportamento
+  - Princípio da substituição de boskof
+  - POde ter métodos concretos 
+  - INterface é mais abstrata q classe abstrata
+  - Classes abstratas tbm podem ter construtores
+  - 
