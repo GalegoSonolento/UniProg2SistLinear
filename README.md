@@ -52,6 +52,7 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - Nunca colocar System.ou.println() por todo o código e no main
 - Definir atributos como private
 - Custos de sistemas tem um impacto importante na velocidade do programa (aplicações e criações de objetos)
+- Usar interfaces antes das classes abstratas (dx a classe abstrata se fazer necessária)
 
 ==-- Sites interessantes --==
 - DZone
@@ -352,3 +353,22 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - Associações
   - Classe abstrata impede de criar objetos
 - Um static explicita que um atributo é da classe
+- Regras
+  - Nenhuma referência dá protected
+- Classes abstratas
+  - Compartilhar dados e comportamento
+  - Princípio da substituição de boskof
+  - POde ter métodos concretos 
+  - INterface é mais abstrata q classe abstrata
+  - Classes abstratas tbm podem ter construtores
+- Interface
+  - Só constantes
+  - Métodos abstratos e sem construtores
+  - Conceito OO, não da tela
+  - Dá pra chamar de contrato
+  - Uma classe pode ter várias implementações de interface
+  - implementações de comportamento
+  - <<interface>>
+  - Compartilhamentos de comportamentos é com interface  (procurar começar a codar com ela)
+  - Métodos são todos públicos (default)
+  - 
