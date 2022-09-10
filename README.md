@@ -370,3 +370,5 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
   - implementações de comportamento
   - <<interface>>
   - Compartilhamentos de comportamentos é com interface  (procurar começar a codar com ela)
+  - Métodos são todos públicos (default)
+  - 
