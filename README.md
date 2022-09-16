@@ -371,4 +371,19 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
   - <<interface>>
   - Compartilhamentos de comportamentos é com interface  (procurar começar a codar com ela)
   - Métodos são todos públicos (default)
+
+==-- RECURSÃO --==
+- Fundamentos
+  - Função chama ela mesma
+  - Problema grande dividido em partes menores
+  - Substitui alguns problemas de iteração
+  - Ela pede um caso base e outro recursivo 
+  - Uso da pilha de chamadas
+  - Função recursiva sempre deixa um pedaço da memória ocupado
+- Riscos
+  - Um código mais elegante e difícil de entender
+- Número triangular 
+  - Monta um  triângulo equilátero de acordo com o número de quadradinhos na aresta
+  - Diz quantos quadrados são necessários para montar a estrutura
+  - Mesmo código do fatorial, mas com soma
   - 
