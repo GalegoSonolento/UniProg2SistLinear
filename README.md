@@ -53,6 +53,7 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - Definir atributos como private
 - Custos de sistemas tem um impacto importante na velocidade do programa (aplicações e criações de objetos)
 - Usar interfaces antes das classes abstratas (dx a classe abstrata se fazer necessária)
+- Var args -> mto parecido com o do python / (T... elementos) = (* elementos)
 
 ==-- Sites interessantes --==
 - DZone
