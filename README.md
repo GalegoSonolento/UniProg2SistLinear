@@ -387,4 +387,34 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
   - Monta um  triângulo equilátero de acordo com o número de quadradinhos na aresta
   - Diz quantos quadrados são necessários para montar a estrutura
   - Mesmo código do fatorial, mas com soma
-  - 
+
+==-- MANIPULAÇÃO DE ARQUIVOS --==
+- Saída padrão é a tela ou impressora e a entrada padrão é o teclado
+- Arquivo é uma unidade persistente de informação
+- 'ML''s são formatos de marcação - ajuda na integração de aplicações
+- Anatomia de um arquivo
+  - Banco de dados relacional é basicamente uma tabela
+  - Colunas/dados/campos
+  - Linha/Registro/Informação/Tupla
+  - Separadores podem ser por vírgula, qtde de dígitos, etc
+  - XML e JSON possuem um tipo de layout - metadado
+- API Java
+  - java.io
+    - Biblioteca mais antiga de manipulação de arquivos
+    - InputStream/OutputStream - binários
+    - Reader/Writer - leitura de arquivos mais high level
+    - Serialização e logging
+    - java.nio -> API nova (mais bem feita-melhor de usar)
+  - Classe File
+    - Representa diretórios e arquivos
+    - File tem vários construtores
+    - IOException -> exceções verificáveis facilitam implementações de aplicações
+  - Hierarquia InputStream e OutputStream
+    - Algumas leituras da memória e de serialização 
+  - EOF - End Of File
+    - Para encerrar uma leitura é preciso entregar um comando de final de arquivo
+  - Caracteres especiais
+    - No windows o padrão de diretórios é o contrabarra
+    - Mas todo mundo pode usar a barra normal pra expressão de códigos
+  - Hierarquia Reader e Writer
+    - São dois q funcionam para leitura de redes
