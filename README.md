@@ -418,3 +418,55 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
     - Mas todo mundo pode usar a barra normal pra expressão de códigos
   - Hierarquia Reader e Writer
     - São dois q funcionam para leitura de redes
+
+==-- DESIGN OO --==
+- Coesão 
+- Acoplamento
+- Tamanho
+- Complexidade
+- Entender esses aspectos facilita no processo de aprendizado do código em incorporação nas equipes
+- Todos os paradigmas precisam ser levados em conta (é importante levar aspectos de diferentes paradigmas juntos)
+- Princípios da OO
+  - Herança
+  - Abstração
+  - Encapsulamento
+  - Polimorfismo
+- Problemas de design
+  - Rigidez
+    - Manutenção é dificil
+    - Muita alteração de módulos
+    - Códigos mais complexos do que deveriam
+    - Acontece quando ferramntas de mapeamento de problemas não são usadas
+    - A rigidez também é comportamental
+  - Fragilidade
+    - Fácil de quebrar
+    - O problema aparece em um trecho provavelmente não pensado
+    - Ainda assim é possível identificá-los
+    - O time de resposta ao problema é importante pra análise pos mortem -> identificação do porquê o produto quebrou (implementações futuras usam esses dados)
+    - Um código frágil n tem testes de integração
+      - Testes automatizados -> dá de brinde um teste de regressão (eles ficam de histórico como uma bateria para mostrar partes quebradas)
+  - Imobilidade
+    - Reuso excessivo de código
+    - Poucas abstrações de código
+    - Bibliotecas precisam ser partes plugáveis de código (criar/usar/visar formas de reúso)
+  - Complexidade desnecessária
+    - Funcionalidades desnecessárias
+    - O Homem Mítico-Mês
+    - Manutenção complicada
+    - "Com um prejeto atrasado não adianta colocar mais pessoas" - Frederick Brooks
+    - Evitá-vel com pensamento sistêmico
+    - Complexidades
+      - Essencial
+        - Inerente ao problema
+      - Acidcental
+        - Desnecessária 
+        - Colocada no sistema por algum motivo de produção
+    - A complexidade cresce junto com o processo
+    - Dívida técnica
+      - Impossível de eliminar 
+      - Apenas pode ser gerida
+  - Repetição desnecessária
+    - copia e cola dentro do código
+    - Uma alteração tem um efeito em cascata
+  - Opacidade
+    - Nomes precisam ser significativos
