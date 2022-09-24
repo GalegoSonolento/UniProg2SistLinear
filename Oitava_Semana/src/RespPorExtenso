@@ -1,0 +1,5 @@
+1. Quais operações podem ser feitas em relação a arquivos?
+    Leitura e geração dos arquivos, as mudanças tbm são feitas, mas as operações devem regerar os códigos de linha
+    (arquivo json, csv, etc...)
+
+2. Quais são os recursos fornecidos pela API do Java (java.io)?
