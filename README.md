@@ -468,4 +468,5 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
   - Repetição desnecessária
     - copia e cola dentro do código
     - Uma alteração tem um efeito em cascata
-     
+  - Opacidade
+    - Nomes precisam ser significativos
