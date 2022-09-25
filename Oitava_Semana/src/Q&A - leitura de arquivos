@@ -3,3 +3,5 @@
     (arquivo json, csv, etc...)
 
 2. Quais são os recursos fornecidos pela API do Java (java.io)?
+    As funções q essa API pode desempenhar são leitura e escrita de bytes e Strings para arquivos, leitura e escrita de
+    bytes e Strings para saída padrão, implementações com a classe Scanner e InputStream.
