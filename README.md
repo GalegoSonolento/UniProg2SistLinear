@@ -54,6 +54,11 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - Custos de sistemas tem um impacto importante na velocidade do programa (aplicações e criações de objetos)
 - Usar interfaces antes das classes abstratas (dx a classe abstrata se fazer necessária)
 - Var args -> mto parecido com o do python / (T... elementos) = (* elementos)
+- Cláusula de guarda
+  - Pensar na lógica do cenário problemático antes
+  - Métodos tem "contratos"
+  - Validar se os parâmetros são verdadeiros
+  - Economiza recursos da máquina
 
 ==-- Sites interessantes --==
 - DZone
@@ -470,3 +475,14 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
     - Uma alteração tem um efeito em cascata
   - Opacidade
     - Nomes precisam ser significativos
+    
+==-- Princípios SOLID --==
+- Single Responsability Principle
+  - Coesão maior entre as classes
+- Open Closed Principle
+  - Bertrand Meyer
+  - Design by contract (basicamente uma API)
+  - Abertos pra ampliação mas fechados pra modificação -> ab stração/proteção de código
+  - Tipos abstratos praticamente não mudam (quebram bibliotecas) - proteção dos comportamentos
+  - 
+
