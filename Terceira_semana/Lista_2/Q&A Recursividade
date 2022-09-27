@@ -1,0 +1,5 @@
+1. O que é recursividade?
+    Recusividade é a capacidade da própria função chamar ela mesma
+
+2. Como podemos estruturar uma solução baseada em recursão?
+    A solução deve ter um caso base para para a recursão, fora isso, ela vai se repetir infinitamente
