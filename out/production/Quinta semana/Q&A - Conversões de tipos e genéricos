@@ -17,4 +17,13 @@
     outro tipo criado pelo desenvolvedor. A utilidade vem quando é necessária uma dinâmica de processos que demanda
     informações de diversos tipos, primitivos ou não, que de outra forma resultariam em códigos praticamente iguais.
     Uma ideia interessante de funcionamento é da classe Numbers, que trabalha com todos os tipos primitivos de números
+<<<<<<< HEAD
     (wrappers), Integers, Double, Float, etc.
+=======
+    (wrappers), Integers, Double, Float, etc.
+
+4 - Pesquisa na Internet exemplos de uso de tipos genéricos.
+    Em teoria, o exemplo mais comum de genericos é pra criação de arrays e de listas / coleções. Mas não se limita a
+    apenas isso, as classes wrappers, serviços de packing e unpacking, Numbers, etc, são todas classes genéricas da API
+    do Java.
+>>>>>>> origin/master
