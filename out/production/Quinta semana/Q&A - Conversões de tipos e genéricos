@@ -1,0 +1,25 @@
+1 - Para que servem as classes Wrappers (empacotadoras)? Dê exemplos.
+    As classes Wrappers sevem como conversores automáticos dentro do java. Elas ajudam na criação de objetos de uma
+    forma mais rápida e prática. Elas pegam os imputs ou instâncias e criam objetos diretamente nas classes desejadas
+    E.g.:
+        int sus = 90 -> acabou de criar um número 90 na classe Number
+        String literal = "Bananinha quando nasce se esparrama pelo chão" -> Criou toda a String dentro da classe String
+
+2 - Como funciona o boxing/unboxing?
+    A princípio, são ações feitas pelas classes wrappers. O boxing é feito na instanciação e umboxing quando tal
+    variável é chamada. Pode ser usado como "conversão de tipos" ou algo do tipo.
+    É possível usar value() para recedber algum valor do tipo primitivo (conversando diretamente com as classes
+    wrappers) ou o valueOf() para obter uma String com os valores contidos dentro do "objeto primitivo".
+
+3 - O que são Tipos Genéricos? Por que eles são úteis?
+    Tipos genéricos são classes que não possuem uma "especificação", que têm métodos mais genéricos e abrange um número
+    maior de tipos para trabalhar. Uma classe genérica T, por exemplo, pode armazenar integrais, flutuantes, Strings ou
+    outro tipo criado pelo desenvolvedor. A utilidade vem quando é necessária uma dinâmica de processos que demanda
+    informações de diversos tipos, primitivos ou não, que de outra forma resultariam em códigos praticamente iguais.
+    Uma ideia interessante de funcionamento é da classe Numbers, que trabalha com todos os tipos primitivos de números
+    (wrappers), Integers, Double, Float, etc.
+
+4 - Pesquisa na Internet exemplos de uso de tipos genéricos.
+    Em teoria, o exemplo mais comum de genericos é pra criação de arrays e de listas / coleções. Mas não se limita a
+    apenas isso, as classes wrappers, serviços de packing e unpacking, Numbers, etc, são todas classes genéricas da API
+    do Java.
