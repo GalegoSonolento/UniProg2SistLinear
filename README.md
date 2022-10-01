@@ -486,3 +486,6 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
   - Tipos abstratos praticamente não mudam (quebram bibliotecas) - proteção dos comportamentos
   - 
 
+==-- JUnit --==
+- Todo código precisa de testes
+- 
