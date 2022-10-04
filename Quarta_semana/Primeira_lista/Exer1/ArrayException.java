@@ -17,7 +17,8 @@ public class ArrayException {
             String telefone = scanner.next();
             String email = scanner.next();
             Cliente c1 = new Cliente(nome, cpf, endereco, telefone, email);
-            if (!at.preenchimentoCorreto(c1)) break;
+            at.preenchimentoCorreto(c1);
+//            if (!at.preenchimentoCorreto(c1)) break;
             clientes[i] = c1;
             System.out.println(clientes[i]);
             scanner.nextLine();
