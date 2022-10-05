@@ -1,5 +1,7 @@
 package Exer1;
 
+import Exer1.Exceptions.ClienteInvalidoException;
+
 import java.util.Scanner;
 
 public class ArrayException {
@@ -17,7 +19,12 @@ public class ArrayException {
             String telefone = scanner.next();
             String email = scanner.next();
             Cliente c1 = new Cliente(nome, cpf, endereco, telefone, email);
-            at.preenchimentoCorreto(c1);
+            try{
+                at.preenchimentoCorreto(c1);
+            }catch (ClienteInvalidoException e){
+                e.getMessage();
+            }
+//            at.preenchimentoCorreto(c1);
 //            if (!at.preenchimentoCorreto(c1)) break;
             clientes[i] = c1;
             System.out.println(clientes[i]);
