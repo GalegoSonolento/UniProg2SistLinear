@@ -21,14 +21,17 @@ public class ArrayException {
             Cliente c1 = new Cliente(nome, cpf, endereco, telefone, email);
             try{
                 at.preenchimentoCorreto(c1);
+                clientes[i] = c1;
             }catch (ClienteInvalidoException e){
-                e.getMessage();
+                i--;
+//                System.out.println("Cliente "+c1+" inválido");
+                System.out.println(e.getMessage());
             }
 //            at.preenchimentoCorreto(c1);
 //            if (!at.preenchimentoCorreto(c1)) break;
-            clientes[i] = c1;
-            System.out.println(clientes[i]);
-            scanner.nextLine();
+
+//            System.out.println(clientes[i]);
+//            scanner.nextLine();
         }
         System.out.println("=-=-=-=-=-=-");
         for (int i=0; i< clientes.length; i++){
