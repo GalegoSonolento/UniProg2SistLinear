@@ -488,4 +488,5 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 
 ==-- JUnit --==
 - Todo código precisa de testes
+- Performance e stress são testes diferentes - performance é resposta/stress é desempenho em situações extremas
 - 
