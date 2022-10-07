@@ -15,4 +15,28 @@ public class Veiculo {
     public void freiar(double v){
         this.velocidade-=v;
     }
+
+    public double getVelocidade() {
+        return velocidade;
+    }
+
+    public void setVelocidade(double velocidade) {
+        this.velocidade = velocidade;
+    }
+
+    public int getPassageiros() {
+        return passageiros;
+    }
+
+    public void setPassageiros(int passageiros) {
+        this.passageiros = passageiros;
+    }
+
+    @Override
+    public String toString() {
+        return "Veiculo{" +
+                "velocidade=" + velocidade +
+                ", passageiros=" + passageiros +
+                '}';
+    }
 }
