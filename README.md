@@ -489,4 +489,11 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 ==-- JUnit --==
 - Todo código precisa de testes
 - Performance e stress são testes diferentes - performance é resposta/stress é desempenho em situações extremas
+- Verificação e validação de software
+  - Identificação de implementações e de funcionamento correto 
+  - Além de estar alinhado com as vontades do cliente
+  - Validação envolve o usuário
+- Testes white e black box
+  - white tem acesso ao código -> normalmente feito por programadores
+  - black teste usabilidade -> testadores que não tem acesso ao código (não são necessariamente programadores)
 - 
