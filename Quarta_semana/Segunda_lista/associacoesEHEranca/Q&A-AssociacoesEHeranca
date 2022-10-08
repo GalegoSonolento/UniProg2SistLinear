@@ -1,0 +1,16 @@
+1. Diferencie:
+• Associação
+• Composição
+• Agregação
+    -> Associação: Conexão entre duas classes. É a história que duas classes se conhecem ou em que podem interagir
+    entre elas.
+    -> Composição: Normalmente de objetos, ela forma objetos compostos de outro(s) objetos. Usualmente alguém recebe
+    informações através de um objeto e trabalha elas para criar outro.
+    -> Agregação: Pode ser tida como a prática de criar composições e dependências de informação entre os objetos.
+
+2. O que é herança? Explique os principais elementos envolvidos na herança (use exemplos).
+    Herança é a relação existentes entre duas classes (ou mais) em que uma depende da outra para ser completa (ela herda
+    os dados e regras da anterior). Se a classe pai não existe, a classe filha ou n~]ao existe ou é incompleta.
+    Alguns aspectos são importantes de se lembrar, como o fato que o construtor da subclasse (classe específica ou
+    filha) precisa necessariamente chamar o da superclasse (classe generalista ou pai/mãe), os métodos e atributos são
+    todos herdados e a proteção "protected" mantém um atributo dentro da cadeia de herança.

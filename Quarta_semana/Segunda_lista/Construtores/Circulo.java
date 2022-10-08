@@ -7,6 +7,9 @@ public class Circulo {
     public Circulo(int raio){
         this(new Ponto(0, 0), raio);
     }
+    public Circulo(){
+        this(new Ponto(0, 0), 1);
+    }
     public Circulo(Ponto origem, double raio) {
         this.origem = origem;
         this.raio = raio;
