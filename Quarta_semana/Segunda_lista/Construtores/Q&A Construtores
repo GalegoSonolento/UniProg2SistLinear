@@ -1,0 +1,8 @@
+1. O que são os Construtores? Disserte sobre os recursos disponíveis para criá-los
+    Construtores são... construtores de objetos, ou instâncias de uma classe, não chegam a ser métodos propriamente
+    ditos, pois eles não dão nenhum tipo de retorno e apenas geram as estrutoras manipuláveis.
+
+2. O que é sobrecarga? Como ela funciona?
+    Sobrecarga é a criação de dois métodos com o mesmo nome. As razões para tanto podem ser diversas, tanto vários tipos
+    de construtores para diferentes situações ou diferentes formas de dar sort em uma lista. Os métodos tem o mesmo
+    nome, mas para que o java consiga diferenciar qual está sendo chamado eles precisam ter parãmetros diferentes.
