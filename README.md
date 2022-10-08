@@ -496,4 +496,9 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - Testes white e black box
   - white tem acesso ao código -> normalmente feito por programadores
   - black teste usabilidade -> testadores que não tem acesso ao código (não são necessariamente programadores)
-- 
+- Teste de unidade é a menor porção do teste (classe ou método)
+- Testes de integração podem ocorrer em ambientes mais robustos, mas com mais frequência que testes de UI
+- JUnit
+  - Módulo de testes popular (suporte nativo nas IDE's)
+- TDD: Test-Driven Development
+  - Trabalhar com ciclos curtos e pequenos de codar e testar
