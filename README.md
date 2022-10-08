@@ -502,3 +502,6 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
   - Módulo de testes popular (suporte nativo nas IDE's)
 - TDD: Test-Driven Development
   - Trabalhar com ciclos curtos e pequenos de codar e testar
+
+==-- Prograssão de Lacerda? --==
+
