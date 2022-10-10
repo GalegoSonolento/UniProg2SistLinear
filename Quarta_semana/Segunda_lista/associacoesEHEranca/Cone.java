@@ -15,4 +15,15 @@ public class Cone extends Figura{
     public double areaLateral() {
         return Math.PI*raioDaBase*geratriz;
     }
+    public double areaCirculo(){
+        return Math.PI*Math.pow(raioDaBase, 2);
+    }
+
+    public double areaTotal() {
+        return this.areaLateral() + this.areaCirculo();
+    }
+
+    public double volumeCone() {
+        return (this.areaCirculo()*altura)/3;
+    }
 }

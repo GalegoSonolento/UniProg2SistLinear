@@ -19,6 +19,14 @@ public class ConeTest {
     }
     @Test
     public void testaAreaBase(){
-
+        assertEquals(12.56, co.areaCirculo(), 2);
+    }
+    @Test
+    public void testaAreaTotalCone(){
+        assertEquals(43.96, co.areaTotal(), 2);
+    }
+    @Test
+    public void testaVolumeCone(){
+        assertEquals(16.74, co.volumeCone(), 2);
     }
 }
