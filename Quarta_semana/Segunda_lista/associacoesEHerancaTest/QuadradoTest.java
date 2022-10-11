@@ -2,15 +2,16 @@ package associacoesEHerancaTest;
 
 import associacoesEHEranca.Quadrado;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class QuadradoTest {
-    private static Quadrado qua;
+    private Quadrado qua;
 
-    @BeforeAll
-    public static void iniciaQuadrado(){
+    @BeforeEach
+    public void iniciaQuadrado(){
         qua = new Quadrado("Quadrado", 4);
     }
     @Test
