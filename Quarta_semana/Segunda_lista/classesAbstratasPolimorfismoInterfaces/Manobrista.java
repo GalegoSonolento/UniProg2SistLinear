@@ -1,4 +1,4 @@
-package Exer2;
+package classesAbstratasPolimorfismoInterfaces;
 
 import Exer2.automotores.Veiculo;
 
@@ -6,11 +6,6 @@ public class Manobrista {
     private String nome;
     private int idade;
     private Veiculo veiculo;
-
-//    public Manobrista(String nome, Veiculo veiculo) {
-//        this.nome = nome;
-//        this.veiculo = veiculo;
-//    }
 
     public Manobrista(String nome, Veiculo veiculo) {
         this.nome = nome;

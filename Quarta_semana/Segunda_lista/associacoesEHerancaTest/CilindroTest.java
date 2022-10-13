@@ -24,6 +24,14 @@ public class CilindroTest {
     }
     @Test
     public void testeAreaCilindro(){
-//        assertEquals()
+        assertEquals(87.92, cl.areaCilindro(), 2);
+    }
+    @Test
+    public void testeAreaLateralCilindro(){
+        assertEquals(62.8, cl.areaLateralCilindro(), 1);
+    }
+    @Test
+    public void testeVolumeCilindro(){
+        assertEquals(62.8, cl.volumeCilindro(), 1);
     }
 }

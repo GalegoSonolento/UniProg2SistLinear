@@ -12,4 +12,16 @@ public class Cilindro extends Figura{
     public boolean testeCilindroReal() {
         return !(raioCirculoBase < 0) && !(altura < 0);
     }
+
+    public double areaLateralCilindro(){
+        return (2*Math.PI*raioCirculoBase)*altura;
+    }
+
+    public double areaCilindro() {
+        return (2*Math.PI*raioCirculoBase)*altura + (Math.PI*Math.pow(raioCirculoBase, 2))*2;
+    }
+
+    public double volumeCilindro() {
+        return (Math.PI*Math.pow(raioCirculoBase, 2))*altura;
+    }
 }

@@ -1,0 +1,4 @@
+1. Qual a diferença de uma classe concreta e de uma classe abstrata?
+    A principal diferença entre os dois tem relação com a criação de instâncias. Classes concretas podem gerar objetos
+    ou instânciamentos. Classes abstratas são abstrações, elas não tem capacidade de gerar objetos para serem trabalhados
+    por outras classes.
