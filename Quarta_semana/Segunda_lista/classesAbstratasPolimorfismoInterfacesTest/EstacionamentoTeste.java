@@ -2,9 +2,6 @@ package classesAbstratasPolimorfismoInterfacesTest;
 
 import Exer2.Manobrista;
 import Exer2.automotores.Veiculo;
-import classesAbstratasPolimorfismoInterfaces.automotores.LandRover;
-import classesAbstratasPolimorfismoInterfaces.automotores.Porsche;
-import classesAbstratasPolimorfismoInterfaces.automotores.Yamaha;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package classesAbstratasPolimorfismoInterfaces.utilitarios;
+package classesAbstratasPolimorfismoInterfaces.ex02.automotores.utilitarios;
 
 import Exer2.Excecoes.NumPassageirosException;
 import Exer2.automotores.Veiculo;

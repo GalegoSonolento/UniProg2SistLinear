@@ -1,4 +1,4 @@
-package classesAbstratasPolimorfismoInterfaces.automotores;
+package classesAbstratasPolimorfismoInterfaces.ex02.automotores;
 
 public class LandRover extends Veiculo {
     private int libras = 10000;

@@ -1,4 +1,4 @@
-package classesAbstratasPolimorfismoInterfaces.automotores;
+package classesAbstratasPolimorfismoInterfaces.ex02.automotores;
 
 public class Yamaha extends Veiculo {
     private int ienes = 1000000;

@@ -2,3 +2,8 @@
     A principal diferença entre os dois tem relação com a criação de instâncias. Classes concretas podem gerar objetos
     ou instânciamentos. Classes abstratas são abstrações, elas não tem capacidade de gerar objetos para serem trabalhados
     por outras classes.
+
+3. O que é uma Interface? Quando usamos?
+    Apesar do nome sugerir de outra forma, uma interface é tida como um 'contrato', em que as classes que implementam
+    essa interface são obrigadas a ter (aplicar) as funções que nela foram escritas. Normalmente interfaces são usadas
+    para aplicar regras gerais, as quais têm mais de uma classe fazendo a mesma tarefa.

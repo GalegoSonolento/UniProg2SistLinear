@@ -1,4 +1,4 @@
-package classesAbstratasPolimorfismoInterfaces;
+package classesAbstratasPolimorfismoInterfaces.ex02.automotores.utilitarios;
 
 import Exer2.automotores.Veiculo;
 

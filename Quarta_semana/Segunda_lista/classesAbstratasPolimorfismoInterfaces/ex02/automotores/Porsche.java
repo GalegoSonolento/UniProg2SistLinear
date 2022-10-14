@@ -1,4 +1,4 @@
-package classesAbstratasPolimorfismoInterfaces.automotores;
+package classesAbstratasPolimorfismoInterfaces.ex02.automotores;
 
 public class Porsche extends Veiculo {
     private int euro = 10000;
