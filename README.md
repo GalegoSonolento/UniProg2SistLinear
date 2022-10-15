@@ -502,6 +502,47 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
   - Módulo de testes popular (suporte nativo nas IDE's)
 - TDD: Test-Driven Development
   - Trabalhar com ciclos curtos e pequenos de codar e testar
+  
+==-- Listas --==
+- Estruturas dinâmicas (maioria dos casos) - evita estouros no código
+- Super genérica 
+- Implemeta listas, pilhas e filas
+- Pilha - recebe no topo e retira no topo 
+- Fila - recebe no fim e tira no começo
+- Ordem linear
+- Lista tem um espaço inicial de memória reservado
+- Consegue armazenar objetos
+- A maioria dos casos com estrutura de dados usam listas
+- Lista ordenada
+  - Impôe uma ordem de elementos (regra)
+  - Primeiro se testa se a estrutura comporta mais elementos
+  - Depois localizar o local de incersão 
+  - Empurrar os demais pra frente
+  - Inserir
+  - Existem estratégias de aumento do tamanho de memória usada (em listas)
+- Lista não-ordenada
+  - Colocado em qql posição 
+  - Esquema do aumento de tamanho ainda existe
+- Lista indexada
+  - Usa a referẽncia da posição
+- Tipos de lista
+  - API de uma lista é praticamente igual à de uma array
+  - Big O: Complexidades 
+    - Os piores casos de código sempre são calculados para saber a efetividade de código
+    - O(n)- linear -> maior e menor elemento
+    - O(log n) - logaritmico -> pesquisa binária
+    - O(n log n) - logaritmico aumenta -> ordenação
+    - O(n²) - quadrático -> bubble sort
+    - O(2^n) - terrivelmente grande
+    - O(n!) - provavelmente impossivel de resolver (com grandes quantidades) - extremamente demorado - problemas NP
+  - Lista simples
+    - Normalmente tem O(n) - apenas reatribuições de espaços
+
+
+
+
+
+  
 
 ==-- Prograssão de Lacerda? --==
 
