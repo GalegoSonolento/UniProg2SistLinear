@@ -1,0 +1,21 @@
+1. Descreva 3 problemas de design, conforme apresentado em aula.
+    - Métodos sem chamamento (não estão sendo usados e são praticamente desnecessários)
+    - Método com mais de uma função (dificultam uma manutenção preventiva)
+    - Nomes de métodos que não condizem com a função do respectivo trecho de código
+
+2. Explique os princípios de design SOLID
+• Princípio da Responsabilidade Única
+    Cada método tem apenas uma responsabilidade.
+• Princípio do Aberto/Fechado
+    Os códigos devem ser abertos para expansão (permitem ser colocados em outros casos) mas bem construídos o suficiente
+    para não serem refatorados a qualquer momento.
+• Princípio da Substituição de Liskov
+    Cuidado com os tipos certos de abstrações, a classe pai implementa na classe filiha, mas a filha não consegue mexer
+    nada na classe pai
+• Princípio da Segregação de Interfaces
+    Interfaces precisam ser específicas e não "gordas". Elas devem ser bem sutis e colocadas (especificadas) onde devem
+    ficar. De outra forma métodos serão implementados sem necessidades.
+• Princípio da Inversão de Dependência
+    Tentar primeiro os casos de erro e deixar os "felizes" para o final
+
+3. Pesquise na Internet exemplos de cada um dos princípios SOLID. Discuta com os colegas.
