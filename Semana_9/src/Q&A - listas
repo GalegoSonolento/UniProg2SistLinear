@@ -1,0 +1,11 @@
+1. O que são listas? Como elas podem ser?
+    Listas são arrays dinâmicas; elas podem alterar seu tamanho, incluir elementos na frente, no fim, no meio, etc.
+    Elas podem ser, genericamente, de três tipos: ordenadas (elementos já são introduzidos na ordem ou tem uma ordenação
+    no fim), não-ordenadas (apenas não tem ordem definida) e indexadas (objetos ficam em seus respectivos espaços de
+    memória até o fim do runtime e apenas alteram posições caso exista uma função especificamente para isso).
+
+2. Quais são os tipos de listas?
+    As listas podem ser:
+    - simples (elementos agrupados todos juntos em um espaço de memória, ordenados ou não)
+    - encadeada (cada elemento da lista aponta para o próximo e assim vai)
+    - duplamente encadeada (resolve o problema da lista encadeada de não ter como fazer a volta)
