@@ -19,3 +19,17 @@
     Tentar primeiro os casos de erro e deixar os "felizes" para o final
 
 3. Pesquise na Internet exemplos de cada um dos princípios SOLID. Discuta com os colegas.
+    - Os métodos e trechos de códigos devem ter todos apenas uma responsabilidade. Isso ajuda muito na hora de resolver
+    os roblemas de algum cliente na hora da manutenção de código.
+    - O princípio de aberto e fechado coloca que os métodos devem ter a possibilidade de serem aclopados em qualquer
+    outro trecho de código, sem precisar de pequenos ajustes toda vez que isso é feito.
+    - Também é importante saber onde usar as heranças. Não se pode fazer essa estrutura com qualquer classe só por elas
+    terem uma coisa em comum. (substituição de Liskov)
+    - As interfaces devem ser pequenas e ter poucos métodos. Interfaces gigantes se espalham por muitos trechos do código
+    e dificultam manutenção.
+    - Inversão de dependências diz que sempre devemos depender das abstrações, elas facilitam a manutenção geral do
+    código.
+
+4. Revisite os laboratórios já desenvolvidos. Escolha um deles para analisar se os princípios SOLID foram respeitados.
+Faça um pequeno documento escrevendo os pontos do código que você analisou.
+

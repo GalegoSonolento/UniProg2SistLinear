@@ -14,4 +14,9 @@ public class Vacinados {
         arrLVacinados.add(pa);
         return true;
     }
+    public String filaDeVacinados(){
+        String retorno = "Lista de pacientes já vacinados: "+"\n";
+        for (Paciente paciente : arrLVacinados) retorno = retorno + paciente.toString() + "\n";
+        return retorno;
+    }
 }
