@@ -1,7 +1,5 @@
 package main;
 
-import javax.swing.*;
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 
 public class FilaDeEspera {
@@ -9,6 +7,10 @@ public class FilaDeEspera {
 
     public FilaDeEspera() {
         arrLPaciente = new ArrayList<>();
+    }
+
+    public ArrayList<Paciente> getArrLPaciente() {
+        return arrLPaciente;
     }
 
     public boolean adicionaNaFila(Paciente pa){
@@ -22,6 +24,17 @@ public class FilaDeEspera {
         String retorno = "Lista de espera para vacina: "+"\n";
         for (Paciente paciente : arrLPaciente) retorno = retorno + paciente.toString() + "\n";
         return retorno;
+    }
+
+    public boolean retiraDaFilaDeEspera(Paciente pa){
+        if (verificarSePaExisteEEstaNaPrimPos(pa)){
+            arrLPaciente.remove(pa);
+            return true;
+        }
+        return false;
+    }
+    private boolean verificarSePaExisteEEstaNaPrimPos(Paciente pa){
+        return arrLPaciente.contains(pa) && arrLPaciente.get(0) == pa;
     }
 
     private void adicionaNaOrdem(Paciente pa){
@@ -46,7 +59,7 @@ public class FilaDeEspera {
     private boolean meioOuFimDaFila(Paciente pa){
         for (int i=0; i<arrLPaciente.size()-1; i++){
             if (arrLPaciente.get(i).getIdade() < pa.getIdade()) {
-                arrLPaciente.add(pa);
+                arrLPaciente.add(0, pa);
                 return false;
             }
             else if (arrLPaciente.get(i).getIdade() > pa.getIdade() && arrLPaciente.get(i +1).getIdade() < pa.getIdade()){
