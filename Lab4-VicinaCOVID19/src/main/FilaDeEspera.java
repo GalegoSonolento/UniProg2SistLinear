@@ -1,5 +1,7 @@
 package main;
 
+import javax.swing.*;
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 
 public class FilaDeEspera {
@@ -14,22 +16,44 @@ public class FilaDeEspera {
         if (pa.getNome().equals("") || pa.getIdade() < 0)
             return false;
         adicionaNaOrdem(pa);
-//        arrLPaciente.add(pa);
         return arrLPaciente.contains(pa);
     }
+    public String filaDePacientes(){
+        String retorno = "Lista de espera para vacina: "+"\n";
+        for (Paciente paciente : arrLPaciente) retorno = retorno + paciente.toString() + "\n";
+        return retorno;
+    }
 
-    public void adicionaNaOrdem(Paciente pa){
+    private void adicionaNaOrdem(Paciente pa){
         if (arrLPaciente.isEmpty())
             arrLPaciente.add(pa);
-        else if (arrLPaciente.size() == 1)
-            if (arrLPaciente.get(0).getIdade() > pa.getIdade()) arrLPaciente.add(pa);
-            else arrLPaciente.add(0, pa);
-        else{
-            for (int i=0; i<arrLPaciente.size(); i++){
-                if (arrLPaciente.get(i).getIdade() > pa.getIdade() && arrLPaciente.get(i+1).getIdade() < pa.getIdade())
-                    arrLPaciente.add(i+1, pa);
-                else arrLPaciente.add(pa);
+        else if (testePosicaoSegundoPaciente(pa)) arrLPaciente.add(0, pa);
+        else if (meioOuFimDaFila(pa)) arrLPaciente.add(pa);
+    }
+    private boolean testePosicaoSegundoPaciente(Paciente pa){
+        if (arrLPaciente.size() == 1)
+            return !segundoPacienteMaisNovo(pa);
+        return false;
+    }
+    private boolean segundoPacienteMaisNovo(Paciente pa){
+        if (arrLPaciente.get(0).getIdade() > pa.getIdade()){
+            arrLPaciente.add(pa);
+            return true;
+        }
+        return false;
+    }
+
+    private boolean meioOuFimDaFila(Paciente pa){
+        for (int i=0; i<arrLPaciente.size()-1; i++){
+            if (arrLPaciente.get(i).getIdade() < pa.getIdade()) {
+                arrLPaciente.add(pa);
+                return false;
+            }
+            else if (arrLPaciente.get(i).getIdade() > pa.getIdade() && arrLPaciente.get(i +1).getIdade() < pa.getIdade()){
+                arrLPaciente.add(i+1, pa);
+                return false;
             }
         }
+        return true;
     }
 }

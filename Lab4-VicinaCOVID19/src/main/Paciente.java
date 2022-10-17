@@ -20,4 +20,9 @@ public class Paciente {
     public int getIdade() {
         return idade;
     }
+
+    @Override
+    public String toString() {
+        return " - "+nome+", "+idade;
+    }
 }
