@@ -32,4 +32,7 @@
 
 4. Revisite os laboratórios já desenvolvidos. Escolha um deles para analisar se os princípios SOLID foram respeitados.
 Faça um pequeno documento escrevendo os pontos do código que você analisou.
-
+    No laboratório 3, é seguro dizer que os princípios de design OO não foram exatamente respeitados, no trecho de
+    código da criação de funcionário, que seria a API pra crição de todos os tipos de funcionários, existem algumas
+    incongruências, como o fato de os métodos serem muito grandes, muitos if's e elses, e até mesmo nas condições -
+    pouco específicas para o trato.
