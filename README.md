@@ -537,8 +537,21 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
     - O(n!) - provavelmente impossivel de resolver (com grandes quantidades) - extremamente demorado - problemas NP
   - Lista simples
     - Normalmente tem O(n) - apenas reatribuições de espaços
-
-
+  - Lista encadeada
+    - Não fica organizado linearmente 
+    - Sem índices
+    - Cada objeto aponta para outro em seguida
+    - adição de outros elementos apenas troca as referências de escolha (links das listas)
+    - Leitura: O(n) -> ainda precisa percorrer a estrutura até encontrar o objeto procurado
+    - Para remover todos da lista precisa apontar o primeiro e último pro null
+    - Permanece com a noção de índices, mas eles não mais existem 
+    - Usada para manter velocidade na inserção e remoção 
+    - Manter a ordem aqui também é mais simples
+  - Lista duplamente encadeada
+    - igual uma lista encadeada
+    - Mas agora ele também te uma referência pro elemento anterior 
+- API do Java
+  - 
 
 
 
