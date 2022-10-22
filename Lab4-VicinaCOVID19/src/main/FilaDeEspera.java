@@ -27,11 +27,11 @@ public class FilaDeEspera {
     }
 
     public boolean retiraDaFilaDeEspera(Paciente pa){
-        if (verificarSePaExisteEEstaNaPrimPos(pa)){
-            arrLPaciente.remove(pa);
-            return true;
+        if (!verificarSePaExisteEEstaNaPrimPos(pa)) {
+            return false;
         }
-        return false;
+        arrLPaciente.remove(pa);
+        return true;
     }
     private boolean verificarSePaExisteEEstaNaPrimPos(Paciente pa){
         return arrLPaciente.contains(pa) && arrLPaciente.get(0) == pa;
