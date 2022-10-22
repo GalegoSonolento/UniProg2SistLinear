@@ -1,0 +1,17 @@
+1. Quais são os alvos dos testes? Explique-os.
+    Os alvos são sempre os métodos, se eles estiverem funcionando, todo o código estará (no caso dos testes unitários)
+    Mas os alvos além dos métodos são as lógicas e UI's.
+
+2. Explique:
+• Suíte de Testes
+    São os pacotes de testes
+• Casos de Testes
+    São as classes de testes
+• Cenários de Testes
+    São os métodos construídos para teste
+
+3. Qual a diferença entre teste de unidade e TDD (Test-Driven Development)?
+    A diferença primordial é que testes de unidade são feitos praticamente com o projeto pronto, em contrapartida, o
+    TDD tem testes desenvolvidos conforme o projeto é desenvolvido, como parte do processo de criação.
+
+
