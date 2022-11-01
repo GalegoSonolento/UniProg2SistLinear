@@ -553,6 +553,16 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - API do Java
   - 
 
+==-- Pilhas --==
+- LIFO - Last In, First Out
+- Pode ser implementada com pilhas
+- O termo é auto-explicativo - pilhas de objetos ou elementos da memória, assim como pilhas de livros, peças e etc
+- Inserção e remoção são automáticas -> mas varrer a pilha não
+- O tamanho da pilha muda de acordo com o número de elementos (o último sempre fica lá)
+- Existe as pilhas com dois lados para inserção e remoção
+  - Funcionam da mesma forma, mas a API obriga uso de especificidade se está tirando da frente ou de tras
+- Pilhas são as Stacks
+- 
 
 
   

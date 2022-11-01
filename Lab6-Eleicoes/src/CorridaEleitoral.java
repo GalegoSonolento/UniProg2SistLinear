@@ -1,13 +1,18 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
-public class CorridaEleitoral  {
-    private ArrayList<Politico> candidatos;
+public class CorridaEleitoral {
+    private ArrayList<Politico> candidatos, candidaatosSorted;
 
     public CorridaEleitoral() {
         candidatos = new ArrayList<>();
     }
 
-    public String mostraCandidatos(){
+    public ArrayList<Politico> getCandidatos() {
+        return candidatos;
+    }
+
+    public String mostraCandidatosSemOrdem(){
         if (candidatos.isEmpty()) return "Não existem canditados";
         String retorno = "Lista dos candidatos: "+"\n";
         for (Politico candidato : candidatos) {
@@ -15,13 +20,18 @@ public class CorridaEleitoral  {
         }
         return retorno;
     }
+    private String transfereListaParaString(ArrayList<Politico> pl){
+        if (pl.isEmpty()) return "Não existem canditados";
+        String retorno = "Lista dos candidatos: "+"\n";
+        for (Politico politico : pl) {
+            retorno += politico.toString() + "\n";
+        }
+        return retorno;
+    }
 
-    public Politico candidatoMaisNovo(){
-        if (candidatos.isEmpty()) return null;
-        Politico maisNovo = null;
-        for (Politico candidato : candidatos)
-            if (maisNovo == null) maisNovo = candidato;
-            else if (maisNovo.getIdade() > candidato.getIdade()) maisNovo = candidato;
-        return maisNovo;
+    public String ordenaCandidatosPorIdade(){
+        candidaatosSorted = candidatos;
+        Collections.sort(candidaatosSorted);
+        return transfereListaParaString(candidaatosSorted);
     }
 }
