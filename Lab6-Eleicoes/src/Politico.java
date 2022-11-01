@@ -12,4 +12,8 @@ public class Politico {
     public String toString() {
         return nome+", "+idade+" anos"+" -> "+qtdeVotos+" votos";
     }
+
+    public int getIdade() {
+        return idade;
+    }
 }

@@ -8,8 +8,8 @@ import java.io.IOException;
 public class exer1_2 {
     public static void main(String[] args){
 
-        // String path = "C:\\Users\\henri\\Documentos\\in.txt";
-        String path = "C:\\Users\\Henrique Haag\\Documents\\in.txt";
+        String path = "C:\\Users\\henri\\Documents\\in.txt";
+        //String path = "C:\\Users\\Henrique Haag\\Documents\\in.txt";
 
         //Classe padrão para ler um streaming de dados
         FileReader fr = null;
