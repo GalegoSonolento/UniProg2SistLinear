@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class CorridaEleitoral {
-    private ArrayList<Politico> candidatos, candidaatosSorted;
+    private ArrayList<Politico> candidatos;
 
     public CorridaEleitoral() {
         candidatos = new ArrayList<>();
@@ -14,24 +14,59 @@ public class CorridaEleitoral {
 
     public String mostraCandidatosSemOrdem(){
         if (candidatos.isEmpty()) return "Não existem canditados";
-        String retorno = "Lista dos candidatos: "+"\n";
+        StringBuilder retorno = new StringBuilder("Lista dos candidatos: " + "\n");
         for (Politico candidato : candidatos) {
-            retorno += candidato.toString() + "\n";
+            retorno.append(candidato.toString()).append("\n");
         }
-        return retorno;
-    }
-    private String transfereListaParaString(ArrayList<Politico> pl){
-        if (pl.isEmpty()) return "Não existem canditados";
-        String retorno = "Lista dos candidatos: "+"\n";
-        for (Politico politico : pl) {
-            retorno += politico.toString() + "\n";
-        }
-        return retorno;
+        return retorno.toString();
     }
 
-    public String ordenaCandidatosPorIdade(){
-        candidaatosSorted = candidatos;
-        Collections.sort(candidaatosSorted);
-        return transfereListaParaString(candidaatosSorted);
+    public Politico mostraCandidatoMaisNovo(){
+        Politico maisNovo = null;
+        for (Politico pl : candidatos)
+            if (pl != null)
+                if (maisNovo == null) maisNovo = pl;
+                else if (maisNovo.getIdade() > pl.getIdade()) maisNovo = pl;
+        return maisNovo;
+    }
+
+    public Politico mostraCandidatoMaisVelho() {
+        Politico maisvelho = null;
+        for (Politico pl : candidatos)
+            if (pl != null)
+                if (maisvelho == null) maisvelho = pl;
+                else if (maisvelho.getIdade() < pl.getIdade()) maisvelho = pl;
+        return maisvelho;
+    }
+
+    public Politico mostraCandidatoMaisVotado() {
+        Politico maisVotado = null;
+        for (Politico pl : candidatos)
+            if (pl != null)
+                if (maisVotado == null) maisVotado = pl;
+                else if (maisVotado.getQtdeVotos() < pl.getQtdeVotos()) maisVotado = pl;
+        return maisVotado;
+    }
+
+    public Politico mostraCandidatoMenosVotado() {
+        Politico menosVotado = null;
+        for (Politico pl : candidatos)
+            if (pl != null)
+                if (menosVotado == null) menosVotado = pl;
+                else if (menosVotado.getQtdeVotos() > pl.getQtdeVotos()) menosVotado = pl;
+        return menosVotado;
+    }
+
+    public Integer totalDeVotosDosCanditados(){
+        if (!candidatos.isEmpty()){
+            Integer qtdVotos = 0;
+            for (Politico candidato : candidatos) {
+                if (candidato != null) {
+                    qtdVotos++;
+                }
+            }
+            return qtdVotos;
+        }
+        return 0;
     }
 }

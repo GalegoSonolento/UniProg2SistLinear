@@ -6,33 +6,41 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class CorridaEleitoralTest {
     // Preiso consertar os roblemas relacionados com o sort dentro do código
     private CorridaEleitoral ce;
-    private Politico pl1, pl2;
+    private Politico pl1, pl2, pl3;
     @BeforeEach
     public void inicializaElementos(){
         ce = new CorridaEleitoral();
-        Politico pl1 = new Politico("Celso", 50, 200);
-        Politico pl2 = new Politico("Portiole", 60, 1000);
+        pl1 = new Politico("Celso", 50, 200);
+        pl2 = new Politico("Portiole", 60, 1000);
+        pl3 = new Politico("Robertina", 23, 400);
+        ce.getCandidatos().add(pl1);
+        ce.getCandidatos().add(pl2);
+        ce.getCandidatos().add(pl3);
     }
     @Test
     public void testaMostragemDeCandidatosComGente(){
-        ce.getCandidatos().add(pl1);
-        ce.getCandidatos().add(pl2);
         System.out.println(ce.mostraCandidatosSemOrdem());
         assertEquals("""
                 Lista dos candidatos:\s
                 Celso, 50 anos -> 200 votos
                 Portiole, 60 anos -> 1000 votos
+                Robertina, 23 anos -> 400 votos
                 """, ce.mostraCandidatosSemOrdem());
     }
     @Test
-    public void testaOrdenarPorIdade(){
-        ce.getCandidatos().add(pl2);
-        ce.getCandidatos().add(pl1);
-        System.out.println(ce.mostraCandidatosSemOrdem());
-        assertEquals("""
-                Lista dos candidatos:\s
-                Celso, 50 -> 200 votos
-                Portiole, 60 -> 1000
-                """, ce.ordenaCandidatosPorIdade());
+    public void testaCandidatoMaisNovo(){
+        assertEquals(pl3, ce.mostraCandidatoMaisNovo());
+    }
+    @Test
+    public void testaCandidatoMaisVelho(){
+        assertEquals(pl2, ce.mostraCandidatoMaisVelho());
+    }
+    @Test
+    public void testaCandidatoMaisVotado(){
+        assertEquals(pl2, ce.mostraCandidatoMaisVotado());
+    }
+    @Test
+    public void testaCandidatoMenosVotado(){
+        assertEquals(pl1, ce.mostraCandidatoMenosVotado());
     }
 }

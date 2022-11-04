@@ -1,4 +1,4 @@
-public class Politico implements Comparable<Politico>{
+public class Politico{
     private String nome;
     private int idade, qtdeVotos;
 
@@ -17,10 +17,7 @@ public class Politico implements Comparable<Politico>{
         return idade;
     }
 
-    @Override
-    public int compareTo(Politico outroPolitico) {
-        if (this.idade > outroPolitico.getIdade()) return 1;
-        if (this.idade < outroPolitico.getIdade()) return -1;
-        return 0;
+    public int getQtdeVotos() {
+        return qtdeVotos;
     }
 }
