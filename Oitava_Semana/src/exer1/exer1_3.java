@@ -7,7 +7,8 @@ import java.io.IOException;
 public class exer1_3 {
     public static void main(String[] args){
 
-        String path = "C:\\Users\\henri\\Documents\\in.txt";
+//        String path = "C:\\Users\\henri\\Documents\\in.txt";
+        String path = "/home/haaghenrique/Documentos/temp/in.txt";
 
         try (BufferedReader br = new BufferedReader(new FileReader(path))){ // Quando termina o block try e cai no catch, os recursos de leitura serão automaticamente finalizados
             String line = br.readLine();
