@@ -551,7 +551,6 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
     - igual uma lista encadeada
     - Mas agora ele também te uma referência pro elemento anterior 
 - API do Java
-  - 
 
 ==-- Pilhas --==
 - LIFO - Last In, First Out
@@ -562,8 +561,25 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - Existe as pilhas com dois lados para inserção e remoção
   - Funcionam da mesma forma, mas a API obriga uso de especificidade se está tirando da frente ou de tras
 - Pilhas são as Stacks
-- 
 
+==-- Sorting --==
+- Tem relação com o número de comparações feita durante a ordenação
+- Fundamentos ordenação
+  - entendimento, orgaização e busca
+  - Usa chaves e referẽncias para comparação de código 
+- Bubble sort
+  - Fácil de entedner e algoritmo básico
+  - Pior caso tem O(n²) -> pior algoritmo de sorting possível 
+  - Extremamente lento para quantidades grandes de números 
+- Selection sort
+  - trabalha menos
+  - Pior caso ainda é O(n²)
+  - Faz um número bem menor de trocas, apesar de manter o número de comparações
+  - Nõo é eficiente em grandes quantidades de valores
+- Insertion sort
+  - Pega o número e o compara com todas as posições anteriores -> colocando-os nos lugares certos do código
+  - Inserção do elemento em outra posição dentro da lista
+  
 
   
 
