@@ -43,4 +43,17 @@ public class CorridaEleitoralTest {
     public void testaCandidatoMenosVotado(){
         assertEquals(pl1, ce.mostraCandidatoMenosVotado());
     }
+    @Test
+    public void testaTotalDeVotosCandidatos(){
+        assertEquals(1600, ce.totalDeVotosDosCanditados());
+    }
+    @Test
+    public void testaMediaDosVotosCandidatos(){
+        assertEquals(533.33, ce.mediaDosVotosDosCandidatos(), 2);
+    }
+    @Test
+    public void testaErroNaMediaDosVotosDeCandidatos(){
+        CorridaEleitoral ce2 = new CorridaEleitoral();
+        assertEquals(-1, ce2.mediaDosVotosDosCandidatos());
+    }
 }

@@ -59,14 +59,27 @@ public class CorridaEleitoral {
 
     public Integer totalDeVotosDosCanditados(){
         if (!candidatos.isEmpty()){
-            Integer qtdVotos = 0;
+            int qtdVotos = 0;
             for (Politico candidato : candidatos) {
                 if (candidato != null) {
-                    qtdVotos++;
+                    qtdVotos += candidato.getQtdeVotos();
                 }
             }
             return qtdVotos;
         }
         return 0;
+    }
+
+    public double mediaDosVotosDosCandidatos(){
+        if (!candidatos.isEmpty()){
+            double somaVotos = 0;
+            for (int i=0; i<candidatos.size(); i++){
+                if (candidatos.get(i) != null){
+                    somaVotos += candidatos.get(i).getQtdeVotos();
+                }
+            }
+            return somaVotos / candidatos.size();
+        }
+        return -1;
     }
 }
