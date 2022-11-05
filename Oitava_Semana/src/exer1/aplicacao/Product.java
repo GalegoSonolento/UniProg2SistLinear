@@ -1,8 +1,8 @@
 package exer1.aplicacao;
 
 import java.io.Serializable;
-
-public class Product implements Serializable {
+// Serializable é usada quando se quer gravar em disco ou trafegar em rede
+public class Product implements Serializable { // Serializable é uma interface de geração de séries de bits - pode ser usada para leitura ou geração de arquivos de texto pelo código
     private String name;
     private double price;
     private Integer quantity;
