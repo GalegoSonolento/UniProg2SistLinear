@@ -580,6 +580,23 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
   - Pega o número e o compara com todas as posições anteriores -> colocando-os nos lugares certos do código
   - Inserção do elemento em outra posição dentro da lista
   
+==-- Pesquisa --==
+- Linear
+  - Sempre um a um até encontrar o elemento
+  - Se ele não existir, o programa percorre td o conjunto para retornar algo
+  - O(n) no pior caso
+  - Ordenação não interfere na performance
+  - Modelo mais simples
+  - Util quando o conjunto de dados é pequeno 
+- Binária
+  - O(log n)
+  - Elementos precisam estar ordenados
+  - Divide no meio e analisa se a requição é a que ele encontrou, dependendo da resposta a iteração sesrá a esquerda ou a direita da chave primeiramente selecionada
+  - Interessante especialmente para quantidades grandes de números
+  - Algoritmos não lineares ou polinomiais podem ser montados com recursividade (não gera o stack overflow)
+- Apoio em pesquisa e ordenação
+  - Comparable -> implementa int comparableTo(T Obj) -> retorna -1, 0 ou 1 - define formas padrões 
+  - Interface Comparator -> implementa int compare(T obj1, T obj2) - usa mais de uma chave - pode ter vários dentro do código
 
   
 
