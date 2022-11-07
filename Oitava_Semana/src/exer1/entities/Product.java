@@ -1,8 +1,11 @@
-package exer1.aplicacao;
+package exer1.entities;
 
+import java.io.Serial;
 import java.io.Serializable;
 // Serializable é usada quando se quer gravar em disco ou trafegar em rede
 public class Product implements Serializable { // Serializable é uma interface de geração de séries de bits - pode ser usada para leitura ou geração de arquivos de texto pelo código
+    @Serial
+    private static final long serialVersionUID = 1L;
     private String name;
     private double price;
     private Integer quantity;
@@ -38,5 +41,14 @@ public class Product implements Serializable { // Serializable é uma interface 
 
     public void setQuantity(Integer quantity) {
         this.quantity = quantity;
+    }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                ", quantity=" + quantity +
+                '}';
     }
 }
