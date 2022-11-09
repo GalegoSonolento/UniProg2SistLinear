@@ -6,7 +6,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class ControleDeNotas {
-    public static void main(String[] args){
+    public static void main(String[] args){ // Parece que não funcionou a leitura de td
+        Utilitarios ut = new Utilitarios();
         String path = "/home/haaghenrique/Documentos/testesParaAula/notas.txt";
 
         ArrayList<Alunos> alunos = new ArrayList<>();
@@ -27,10 +28,15 @@ public class ControleDeNotas {
                 alunos.add(al);
                 line = bf.readLine();
             }
+
+//            for (Alunos aluno : alunos) {
+//                System.out.println(aluno);
+//            }
+
         }catch (IOException e){
             System.out.println("ERRO: " + e.getMessage());
         }
+
+        ut.display(alunos);
     }
-
-
 }

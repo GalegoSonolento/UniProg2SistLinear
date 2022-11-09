@@ -3,7 +3,7 @@ package ex01pt2;
 import java.util.ArrayList;
 
 public class Utilitarios {
-    public double meidaGeral(ArrayList<Alunos> llist){
+    private double mediaGeral(ArrayList<Alunos> llist){
         double somaTotal = 0;
         for (Alunos al : llist){
             somaTotal += al.getNotaA() + al.getNotaB();
@@ -11,7 +11,7 @@ public class Utilitarios {
         return somaTotal / llist.size();
     }
 
-    public double menorMedia(ArrayList<Alunos> list){
+    private double menorMedia(ArrayList<Alunos> list){
         double menorMedia = 0;
         for (int i=0; i<list.size(); i++){
             if (i == 0)
@@ -22,7 +22,7 @@ public class Utilitarios {
         return menorMedia;
     }
 
-    public double maiorMedia(ArrayList<Alunos> list){
+    private double maiorMedia(ArrayList<Alunos> list){
         double maiorMedia = 0;
         for (int i=0; i<list.size(); i++){
             if (i == 0)
@@ -33,7 +33,7 @@ public class Utilitarios {
         return maiorMedia;
     }
 
-    public double menorNota(ArrayList<Alunos> list){
+    private double menorNota(ArrayList<Alunos> list){
         double menorNota = 0;
         for (int i=0; i<list.size(); i++){
             if (i == 0)
@@ -42,5 +42,26 @@ public class Utilitarios {
                 menorNota = list.get(i).getMedia();
         }
         return menorNota;
+    }
+
+    private double maiorNota(ArrayList<Alunos> list){
+        double maiorNota = 0;
+        for (int i=0; i<list.size(); i++){
+            if (i == 0)
+                maiorNota = list.get(i).getMedia();
+            else if (maiorNota < list.get(i).getNotaA() || maiorNota < list.get(i).getNotaB())
+                maiorNota = list.get(i).getMedia();
+        }
+        return maiorNota;
+    }
+
+    public String display(ArrayList<Alunos> list){
+        String retorno = "MÉDIAS \n";
+        retorno += "Média geral: " + mediaGeral(list) + "\n" +
+                "Menor média: " + menorMedia(list) + "\n" +
+                "Maior média: " + maiorMedia(list) + "\n" +
+                "Menor nota: " + menorNota(list) + "\n" +
+                "Maior nota: " + maiorNota(list) + "\n";
+        return retorno;
     }
 }
