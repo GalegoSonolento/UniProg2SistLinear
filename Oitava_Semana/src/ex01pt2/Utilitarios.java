@@ -57,11 +57,11 @@ public class Utilitarios {
 
     public String display(ArrayList<Alunos> list){
         String retorno = "MÉDIAS \n";
-        retorno += "Média geral: " + mediaGeral(list) + "\n" +
-                "Menor média: " + menorMedia(list) + "\n" +
-                "Maior média: " + maiorMedia(list) + "\n" +
-                "Menor nota: " + menorNota(list) + "\n" +
-                "Maior nota: " + maiorNota(list) + "\n";
+        retorno += "Média geral: \t" + mediaGeral(list) + "\n" +
+                "Menor média: \t" + menorMedia(list) + "\n" +
+                "Maior média: \t" + maiorMedia(list) + "\n" +
+                "Menor nota: \t" + menorNota(list) + "\n" +
+                "Maior nota: \t" + maiorNota(list) + "\n";
         return retorno;
     }
 }

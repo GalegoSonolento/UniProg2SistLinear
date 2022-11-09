@@ -36,7 +36,6 @@ public class ControleDeNotas {
         }catch (IOException e){
             System.out.println("ERRO: " + e.getMessage());
         }
-
-        ut.display(alunos);
+        System.out.println(ut.display(alunos));
     }
 }
