@@ -9,3 +9,5 @@
     - simples (elementos agrupados todos juntos em um espaço de memória, ordenados ou não)
     - encadeada (cada elemento da lista aponta para o próximo e assim vai)
     - duplamente encadeada (resolve o problema da lista encadeada de não ter como fazer a volta)
+
+Porque não e pode colocar o Collections.copy(algo) dentro de outra variável ou mandar como resposta?
