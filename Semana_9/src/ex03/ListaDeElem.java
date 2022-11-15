@@ -9,11 +9,18 @@ public class ListaDeElem {
         this.elems = new ArrayList<>();
     }
 
-//    public ArrayList<Elem> inverteElementos(){
-//        ArrayList<Elem> invertidos = new ArrayList<>();
-//        for (int i=0; i< elems.size(); i++){
-//            invertidos.add(elems.get(elems.size()-1-i));
-//        }
-//
-//    }
+    public ArrayList<Elem> getElems() {
+        return elems;
+    }
+
+    public ArrayList<Elem> inverteElementos(){
+        ArrayList<Elem> invertidos = new ArrayList<>();
+        for (int i=0; i< elems.size(); i++){
+            invertidos.add(elems.get(elems.size()-1-i));
+        }
+        elems = invertidos;
+        return elems;
+    }
+
+
 }

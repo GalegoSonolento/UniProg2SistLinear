@@ -8,4 +8,12 @@ public class Elem {
         this.nome = nome;
         this.idade = idade;
     }
+
+    @Override
+    public String toString() {
+        return "Elem{" +
+                "nome='" + nome + '\'' +
+                ", idade=" + idade +
+                '}';
+    }
 }
