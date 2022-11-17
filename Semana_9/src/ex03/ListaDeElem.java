@@ -2,6 +2,8 @@ package ex03;
 
 import java.util.ArrayList;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class ListaDeElem {
     private ArrayList<Elem> elems;
 
@@ -11,6 +13,10 @@ public class ListaDeElem {
 
     public ArrayList<Elem> getElems() {
         return elems;
+    }
+
+    public void setElems(ArrayList<Elem> elems) {
+        this.elems = elems;
     }
 
     public ArrayList<Elem> inverteElementos(){
@@ -31,5 +37,9 @@ public class ListaDeElem {
             }
         }
         return elems;
+    }
+
+    public boolean comparaLista(ArrayList<Elem> lista2) {
+        return elems == lista2;
     }
 }

@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class ListaElemTest {
     private Elem e1, e2, e3, e4;
@@ -25,13 +25,13 @@ public class ListaElemTest {
         lista1.getElems().add(e2);
         lista1.getElems().add(e3);
         lista1.getElems().add(e4);
-        //for (Elem elem : lista1.getElems()) System.out.println(elem);
+        for (Elem elem : lista1.getElems()) System.out.println(elem);
         lista2.add(e4);
         lista2.add(e3);
         lista2.add(e2);
         lista2.add(e1);
         System.out.println("---------------------------=");
-        //for (Elem elem : lista2) System.out.println(elem);
+        for (Elem elem : lista2) System.out.println(elem);
         lista3 = new ArrayList<>();
         lista3.add(e1);
         lista3.add(null);
@@ -57,4 +57,17 @@ public class ListaElemTest {
     public void testaTiraMeio(){
         assertEquals(lista4, lista1.tiraTrecho(1, 2));
     }
+    @Test
+    public void testaComparacaoDeArrays(){
+        assertFalse(lista1.comparaLista(lista2));
+    }
+//É preciso consertar esse teste ou erro de código
+//    @Test
+//    public void testaComparacaoTrue(){ //É preciso consertar esse teste
+//        lista1.setElems(lista1.inverteElementos());
+//        System.out.println("-=-=-==-=-=-=-=-=-");
+//        System.out.println("Lista 1 invertida: ");
+//        for (Elem elem : lista1.getElems()) System.out.println(elem);
+//        assertTrue(lista1.comparaLista(lista2));
+//    }
 }
