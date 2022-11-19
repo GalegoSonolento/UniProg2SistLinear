@@ -10,9 +10,9 @@ public class CorridaEleitoralTest {
     @BeforeEach
     public void inicializaElementos(){
         ce = new CorridaEleitoral();
-        pl1 = new Politico("Celso", 50, 200);
-        pl2 = new Politico("Portiole", 60, 1000);
-        pl3 = new Politico("Robertina", 23, 400);
+        pl1 = new Politico("Celso", 50, 200, "Verdes");
+        pl2 = new Politico("Portiole", 60, 1000, "Laranjas");
+        pl3 = new Politico("Robertina", 23, 400, "Vermelhos");
         ce.getCandidatos().add(pl1);
         ce.getCandidatos().add(pl2);
         ce.getCandidatos().add(pl3);
