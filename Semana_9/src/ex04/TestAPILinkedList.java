@@ -55,4 +55,12 @@ public class TestAPILinkedList {
         linked.inserirNaListaUltPos(l4);
         assertTrue(linked.iterandoNaOrdemInversa());
     }
+    @Test
+    public void testeinserirPriemeiraEUltimaPos(){
+        linked.inserirNaListaUltPos(l1);
+        linked.inserirNaListaUltPos(l2);
+        linked.inserirNaListaUltPos(l3);
+        linked.inserirNaListaUltPos(l4);
+        assertTrue(linked.inserirPriemeiraEUltimaPos(l1));
+    }
 }

@@ -69,4 +69,20 @@ public class APILinkedList {
         System.out.println(printar);
         return true;
     }
+
+    public boolean inserirPriemeiraEUltimaPos(ElementosLinkedList e){
+        if (first == null) {
+            first = e;
+            last = e;
+            e.setProximo(null);
+            return false;
+        }
+        ElementosLinkedList index = first;
+        first = e;
+        e.setProximo(index);
+        index = last;
+        index.setProximo(e);
+        last = e;
+        return true;
+    }
 }
