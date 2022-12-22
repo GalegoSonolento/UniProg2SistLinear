@@ -598,6 +598,13 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
   - Comparable -> implementa int comparableTo(T Obj) -> retorna -1, 0 ou 1 - define formas padrões 
   - Interface Comparator -> implementa int compare(T obj1, T obj2) - usa mais de uma chave - pode ter vários dentro do código
 
+
+==-- Escrevendo com json (Gson) --==
+- Baixa o .jar daqui: https://mvnrepository.com/artifact/com.google.code.gson/gson/2.10
+- coloca nas libs da IDE pra poder colocar dentro do PATH
+- Faz uma lista com os dados e mete um new Gson().toJson(lista);
+- 
+
   
 
 ==-- Prograssão de Lacerda? --==
