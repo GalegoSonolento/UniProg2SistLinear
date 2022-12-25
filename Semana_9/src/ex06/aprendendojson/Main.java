@@ -2,6 +2,7 @@ package ex06.aprendendojson;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.JsonObject;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -33,11 +34,18 @@ public class Main {
             System.out.println("ERRO " + e.getMessage());
         }
 
-//        try (BufferedReader bf = new BufferedReader(new FileReader(path))){
-//            users = bf.read();
-//        } catch (IOException e){
-//            System.out.println("ERRO " + e.getMessage());
-//        }
+
+        try (BufferedReader bf = new BufferedReader(new FileReader(path))){
+
+            String reader = String.valueOf(bf.read());
+//            ArrayList<Usuario> leitorUsers = gson.fromJson(reader, path);
+
+
+//            String leitor = String.valueOf(bf.read());
+//            List<Usuario> recebeUsers = gson.fromJson(leitor, path);
+        } catch (IOException e){
+            System.out.println("ERRO " + e.getMessage());
+        }
 
     }
 
