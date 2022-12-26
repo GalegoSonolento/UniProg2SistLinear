@@ -1,0 +1,9 @@
+1. O que são Filas?
+    Filas são elementos enfileirados que seguem a regra do FIFO - FirstIn - FirstOut. Podem ser tidas como listas com
+    remoção apenas na frente (ou na cauda, se for uma deque).
+
+2. Quais são os tipos de filas? Explique-as.
+    Temos a Queue normal, que funciona como uma fila qql.
+    Deque que funciona como uma fila de mão dupla, inseções e retiradas na cabeça e na cauda.
+    E a prioriyQueue, uma lista com prioridade (utiliza o comparable pra isso) que pode ser implementada tanto como
+    queue ou lista.
