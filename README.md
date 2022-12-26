@@ -603,7 +603,26 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - Baixa o .jar daqui: https://mvnrepository.com/artifact/com.google.code.gson/gson/2.10
 - coloca nas libs da IDE pra poder colocar dentro do PATH
 - Faz uma lista com os dados e mete um new Gson().toJson(lista);
-- 
+
+==-- Filas --==
+- O nome é autoexplicativo
+- Filas seguem o FIFO - First In First Out
+- É possível adicionar, remover, ver o tamanho, ver elemento e ver se está vazia
+- Tempos de resposta e leitura razoáveis 
+- Existe a fila dupla (deque) - a diferença é que dá pra colocar e tirar na frente e atrás, além de precisar especificar onde se coloca e de onde se tira
+- As filas com prioridade usam um tipo de sorting para organizá-las. São listas organizadas
+- ArrayDeque
+  - Tbm conhecido como Array Deck
+  - Notavelmente rápida
+  - Inicialização: Deque<E> de_que = new ArratDeque<E>(size);
+  - Adiciona igual uma lista
+  - A iteração funciona igual uma lista 
+  - A remoção inclui pollFirst() e pollLast(), assim como a adição permite colocar no início ou no final
+- PriorityQueue
+  - Baseada na heapQueue
+  - N permite null nem objetos que não são comparáveis
+  - Inicialização: PriorityQueue<E> pq = new PriorityQueue<E>();
+
 
   
 
