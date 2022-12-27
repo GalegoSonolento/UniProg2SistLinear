@@ -561,6 +561,13 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - Existe as pilhas com dois lados para inserção e remoção
   - Funcionam da mesma forma, mas a API obriga uso de especificidade se está tirando da frente ou de tras
 - Pilhas são as Stacks
+- Adicionar (push)
+- Remover (pop)
+- Verificar tamanho (lenght)
+- Verificar elemento (peek)
+- Verificar se é vazia (is empty)
+- É a conhecida stack
+- Pode servir como base de dados iguais ou ser usada como repositório para remontagem de algo
 
 ==-- Sorting --==
 - Tem relação com o número de comparações feita durante a ordenação
@@ -611,6 +618,7 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - Tempos de resposta e leitura razoáveis 
 - Existe a fila dupla (deque) - a diferença é que dá pra colocar e tirar na frente e atrás, além de precisar especificar onde se coloca e de onde se tira
 - As filas com prioridade usam um tipo de sorting para organizá-las. São listas organizadas
+- Os deques baseados em likedList são realmente bem convenientes
 - ArrayDeque
   - Tbm conhecido como Array Deck
   - Notavelmente rápida
@@ -622,6 +630,8 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
   - Baseada na heapQueue
   - N permite null nem objetos que não são comparáveis
   - Inicialização: PriorityQueue<E> pq = new PriorityQueue<E>();
+  - Ela funciona como se espera de uma lista de prioridade, mas usar um arraylist com sort funciona melhor
+  - Não necessariamente um método descartável, mas ela tira mais praticidade do que coloca
 
 
   
