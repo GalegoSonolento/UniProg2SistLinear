@@ -1,0 +1,4 @@
+1. O que são Pilhas? Quais são as suas operações básicas?
+    As pilhas são, literalmente, pilhas. Em códigos feitos com orientação a objetos, as pilhas são aglomerações deses
+    objetos que, ao invés de estarem em um array ou lista, são organizados de forma a respeitar o conceito de First-In-
+    First-Out. Suas operações básicas são como qualquer outra estrutura de dados: add(), remove(), peek(), pull()...
