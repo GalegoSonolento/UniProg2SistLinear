@@ -586,6 +586,17 @@ Aulas e exercícios da cadeira de programação 2: sistemas lineares, da Unisino
 - Insertion sort
   - Pega o número e o compara com todas as posições anteriores -> colocando-os nos lugares certos do código
   - Inserção do elemento em outra posição dentro da lista
+- Merge sort
+  - Método de divisão e conquista
+  - Divide todo o volume de dados em pequenas partes e as ordena. Apenas depois dá um "marge" e as junta
+  - É um pouco mais lento que o quicksort 
+  - Pior caso é O(n log n) -> ainda é um tanto lento, mas estupidamente mais rápido que O(n²)
+- Quicksort
+  - Charles Antony Richard Hoare, 1961
+  - Divisão e conquista
+  - Usa a figura de um pivô para ordenação
+  - O(n log n)
+  - Ainda pode ter O(n²) se a escolha do pivô for ruim, mas o processo aleatório diminui bastante essa chance
   
 ==-- Pesquisa --==
 - Linear

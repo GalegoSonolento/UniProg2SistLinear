@@ -1,0 +1,36 @@
+1. Como funciona a complexidade de algoritmos. Dê exemplos para cada complexidade?
+    A complexidade de algoritmos está relacionada à projeção do tempo que requerem para serem concluídos. As estimativas
+    podem ser lineares, logaritmicas, polinomiais, etc.
+    Alguns exemplos são n², n log n, log n, n.
+
+2. Como funciona uma ordenação de elementos? Como ela pode ser?
+    Uma ordenação de elementos tem a função de ordenar os elementos de um conjunto de dados (lista, por exemplo) de uma
+    determinada maneira, de um determinado modo.
+    Podemos ordenar uma lista comparando cada elemento a cada elemento (bubble sort), criando uma lista nova e colocando
+    os elemntos na posição correta (insertion sort) separando todos os elementos e remontando a lista toda (merge sort)
+    ou ainda escolhendo um pivô e comparando todos os elementos à ele até termos uma lista ordenada (quick sort).
+
+3. Escolha dois algoritmos de ordenação e explique seu funcionamento
+    Bubble sort:
+        Literalmente o pior algoritmo de ordenação e também o mais básico. A primeira lógica apresentada a novos
+        estudantes na área. Ela pega cada elemento e o compara a todos os outros. Ela define o meior (ou menor) e
+        coloca-o no começo da lista, por exemplo, acha o segundo maior e o coloca após o primeiro e assim vai, até
+        ordenar a lista.
+    Quick sort:
+        Melhor algoritmo de ordenação conhecido até agora. Ele pega a lista e escolhe, aleatoriamente, um pivô para
+        basear a pesquisa e ordena todos os valores como maiores ou menores que o pivô, depois pega um pivô entre os
+        meiores e outro entre os menores e faz o mesmo processo, até que as comparações sejam, aproximadamente, entre
+        três elementos, ao final desse processo, a lista estará toda ordenada e pronta para uso.
+
+4. Explique o funcionamento da pesquisa linear e da pesquisa binária.
+    Pesquisa linear:
+        Imagine que tenhamos uma lista, a pesquisa linear vai olhar para cada elemento dessa lista, do começo para o
+        fim, até encontrar o elemento pedido. Se ele não existir, a pesquisa corre toda a lista. Interessante para mexer
+        com baixos números de dados, mas começa a ficar inviável após certo tempo.
+    Pesquisa binária:
+        Imagine a mesma lista de antes, mas agora, ao invés de percorrer toda a lista para encontrar um elemento,
+        percorre-se apenas a metade. Isso acontece porque se compara o valor procurado com o valor do elemento central,
+        se maior, compara-se com o termo do meio dos meiores, se maior que ele, compara-se com o termo central dos
+        valores meiores e assim vai até econtrar o elemento pedido (o mesmo processo se dá para os valores menores). Se
+        o elemento não existe, ao invés de percorrer a lista toda, o código apenas percorrerá, mais ou menos, um quarto
+        da lista.
